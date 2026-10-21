@@ -49,7 +49,7 @@ Unreal Engine 5 用のビジュアルノベルエンジン（プラグイン）�
    @l
    ```
 
-もっと詳しい手順（見本を置く → 書き換える → 遊ぶ → EXE にする）は導入ガイド [Plugins/KaedeVN/Docs/kaedevn-guide.md](Plugins/KaedeVN/Docs/kaedevn-guide.md) の §1、ブロック・命令・検査・設定の全部はリファレンス [Plugins/KaedeVN/Docs/kaedevn-reference.md](Plugins/KaedeVN/Docs/kaedevn-reference.md) にあります（ノベルエディタはこのリポジトリに入っていないので、エディタの手順は Fab で入れたときのものです）。
+もっと詳しい手順（見本を置く → 書き換える → 遊ぶ → EXE にする）は導入ガイド [Plugins/KaedeVN/Docs/kaedevn-guide.ja.md](Plugins/KaedeVN/Docs/kaedevn-guide.ja.md) の §1、ブロック・命令・検査・設定の全部はリファレンス [Plugins/KaedeVN/Docs/kaedevn-reference.ja.md](Plugins/KaedeVN/Docs/kaedevn-reference.ja.md) にあります（ノベルエディタはこのリポジトリに入っていないので、エディタの手順は Fab で入れたときのものです）。
 
 ## 試験
 

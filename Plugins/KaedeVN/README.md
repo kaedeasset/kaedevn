@@ -19,8 +19,8 @@ The documentation ships in this plugin's `Docs/` folder:
 
 | Document | English | 日本語 |
 |---|---|---|
-| Setup guide — install, place the sample, edit, play, package (§1), then features, work folder, controls and KS scripts | [Docs/kaedevn-guide.en.md](Docs/kaedevn-guide.en.md) | [Docs/kaedevn-guide.md](Docs/kaedevn-guide.md) |
-| Reference — every block, KS command, check and setting | [Docs/kaedevn-reference.en.md](Docs/kaedevn-reference.en.md) | [Docs/kaedevn-reference.md](Docs/kaedevn-reference.md) |
+| Setup guide — install, place the sample, edit, play, package (§1), then features, work folder, controls and KS scripts | [Docs/kaedevn-guide.md](Docs/kaedevn-guide.md) | [Docs/kaedevn-guide.ja.md](Docs/kaedevn-guide.ja.md) |
+| Reference — every block, KS command, check and setting | [Docs/kaedevn-reference.md](Docs/kaedevn-reference.md) | [Docs/kaedevn-reference.ja.md](Docs/kaedevn-reference.ja.md) |
 | Changelog | [Docs/kaedevn-changelog.md](Docs/kaedevn-changelog.md) | （同じ 1 本） |
 
 **New here? Start with §1 of the setup guide.** The short version: enable
@@ -87,7 +87,7 @@ Games.
 
 **KaedeVN** は Unreal Engine 5 でノベルゲームを作る、無料（MIT）のプラグインです。UE の**ノベルエディタ**でブロックを並べて組むか（作品 › 章 › 話 › ブロック・プレビュー・元に戻す）、文字の **KS 台本**を **KS 台本エディタ**で書きます。どちらも `scenario.json` になり（ブロックはエディタが組み、KS 台本は**同梱のコンパイラ**が組む）、Slate で描く画面で再生します。**ビルドの検査**が「組めるのに遊ぶとおかしくなる所」を見つけ、指摘からそのブロックへ移れます。
 
-- 説明書はこのプラグインの `Docs/` にあります: **導入ガイド [Docs/kaedevn-guide.md](Docs/kaedevn-guide.md)**（はじめての一本道は §1）・リファレンス [Docs/kaedevn-reference.md](Docs/kaedevn-reference.md)・更新履歴 [Docs/kaedevn-changelog.md](Docs/kaedevn-changelog.md)。英語は `.en.md`。
+- 説明書はこのプラグインの `Docs/` にあります: **導入ガイド [Docs/kaedevn-guide.ja.md](Docs/kaedevn-guide.ja.md)**（はじめての一本道は §1）・リファレンス [Docs/kaedevn-reference.ja.md](Docs/kaedevn-reference.ja.md)・更新履歴 [Docs/kaedevn-changelog.md](Docs/kaedevn-changelog.md)。英語は `.en.md`。
 - 対応: **UE 5.8**・無料のプラグイン **MomijiUI** が要ります。作るのは **Windows のエディタだけ**で、プロジェクトは C++ で作ります（書き出しに Visual Studio が要るため）。いまはベータです。
 - UE で動くもの: ブロック 7 種のノベルエディタ・KS 台本と KS 台本エディタ（行の検査 8 種）・ビルドの検査 15 種・UE で動く KS の命令 39 個・選択肢と変数と条件分岐・KSC・セーブとロード・オート・スキップ・ゲームの画面 7 枚（MomijiUI の JSON）・キーボードとマウスとゲームパッド。
 - まだできないこと: UE では音が鳴りません（BGM・効果音・声の命令はビルドが通っても何もしない）。エディタの表示は日本語です。詳しくは導入ガイドの §7。

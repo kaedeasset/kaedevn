@@ -49,7 +49,7 @@ To use KaedeVN in your own project, copy `Plugins/KaedeVN/` and `Plugins/MomijiU
    @l
    ```
 
-The full walkthrough (place the sample → edit → play → package an EXE) is §1 of the setup guide [Plugins/KaedeVN/Docs/kaedevn-guide.en.md](Plugins/KaedeVN/Docs/kaedevn-guide.en.md), and every block, command, check and setting is in the reference [Plugins/KaedeVN/Docs/kaedevn-reference.en.md](Plugins/KaedeVN/Docs/kaedevn-reference.en.md). (The novel editor is not in this repository, so the editor steps are the ones for a Fab install.)
+The full walkthrough (place the sample → edit → play → package an EXE) is §1 of the setup guide [Plugins/KaedeVN/Docs/kaedevn-guide.md](Plugins/KaedeVN/Docs/kaedevn-guide.md), and every block, command, check and setting is in the reference [Plugins/KaedeVN/Docs/kaedevn-reference.md](Plugins/KaedeVN/Docs/kaedevn-reference.md). (The novel editor is not in this repository, so the editor steps are the ones for a Fab install.)
 
 ## Tests
 
