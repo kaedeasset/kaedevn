@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "KaedeVN sample project: a short 2D visual novel played by the KaedeVN runtime.",
+	"Modules": [
+		{
+			"Name": "KaedeVnSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MomijiUI",
+			"Enabled": true
+		},
+		{
+			"Name": "KaedeVN",
+			"Enabled": true
+		}
+	]
+}

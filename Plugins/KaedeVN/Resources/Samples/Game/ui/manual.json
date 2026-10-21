@@ -1,0 +1,59 @@
+{
+  "id": "manual",
+  "note": "解説書（操作説明）。作品ごとの解説に差し替え可能な静的画面。",
+  "root": {
+    "type": "Modal",
+    "w": 760,
+    "h": 520,
+    "dim": true,
+    "pad": 0,
+    "gap": 0,
+    "children": [
+      {
+        "type": "VerticalLayout",
+        "h": 520,
+        "pad": 28,
+        "gap": 14,
+        "children": [
+          {
+            "type": "HorizontalLayout",
+            "variant": "dark",
+            "highlight": true,
+            "h": 56,
+            "pad": 8,
+            "gap": 12,
+            "children": [
+              { "type": "Label", "text": "解説書", "font": "logo", "flex": 1, "align": "left", "margin": 6 },
+              { "type": "Button", "text": "×", "variant": "ghost", "w": 40, "action": "close" }
+            ]
+          },
+          {
+            "type": "VerticalLayout",
+            "variant": "light",
+            "flex": 1,
+            "pad": 16,
+            "gap": 10,
+            "children": [
+              { "type": "Label", "h": 32, "text": "■ 基本操作", "font": "bold", "align": "left" },
+              { "type": "Label", "h": 28, "text": "クリック / Enter … テキストを読み進める・決定", "font": "main", "align": "left" },
+              { "type": "Label", "h": 28, "text": "右クリック … メニューを開く / 画面を閉じる", "font": "main", "align": "left" },
+              { "type": "Label", "h": 28, "text": "↑↓ … 選択肢のフォーカス移動", "font": "main", "align": "left" },
+              { "type": "Label", "h": 32, "text": "■ セーブ / ロード", "font": "bold", "align": "left" },
+              { "type": "Label", "h": 28, "text": "F5 … クイックセーブ / F9 … クイックロード", "font": "main", "align": "left" },
+              { "type": "Label", "h": 28, "text": "メニュー → セーブ/ロード … スロット1〜6", "font": "main", "align": "left" }
+            ]
+          },
+          {
+            "type": "HorizontalLayout",
+            "h": 48,
+            "gap": 12,
+            "children": [
+              { "type": "Panel", "variant": "spacer", "flex": 1 },
+              { "type": "Button", "text": "閉じる", "variant": "primary", "w": 180, "action": "close" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

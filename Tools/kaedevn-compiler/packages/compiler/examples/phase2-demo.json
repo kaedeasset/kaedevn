@@ -1,0 +1,144 @@
+{
+  "id": "phase2-demo",
+  "ops": [
+    {
+      "op": "BG_SET",
+      "id": "room_day"
+    },
+    {
+      "op": "CH_SET",
+      "name": "hero",
+      "pose": "smile",
+      "pos": "center"
+    },
+    {
+      "op": "BGM_PLAY",
+      "id": "calm",
+      "vol": 70
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "良い朝だ。",
+      "who": "主人公"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "今日は何をしようか。"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "WAIT_MS",
+      "ms": 500
+    },
+    {
+      "op": "SE_PLAY",
+      "id": "door"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "扉をノックする音が聞こえた。"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "heroine",
+      "pose": "happy",
+      "pos": "right",
+      "fadeMs": 300
+    },
+    {
+      "op": "BGM_PLAY",
+      "id": "morning",
+      "vol": 80,
+      "fadeMs": 500
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "おはよう！",
+      "who": "ヒロイン"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "やあ、おはよう。",
+      "who": "主人公"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "hero",
+      "fadeMs": 200
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "heroine",
+      "fadeMs": 200
+    },
+    {
+      "op": "BGM_STOP",
+      "fadeMs": 500
+    },
+    {
+      "op": "WAIT_MS",
+      "ms": 1000
+    },
+    {
+      "op": "BG_SET",
+      "id": "library",
+      "fadeMs": 500
+    },
+    {
+      "op": "CH_SET",
+      "name": "hero",
+      "pose": "thinking",
+      "pos": "center",
+      "fadeMs": 300
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "図書館に来てみたものの…",
+      "who": "主人公"
+    },
+    {
+      "op": "TEXT_NL"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "何を読もうか。"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "VOICE_PLAY",
+      "id": "hero_001"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この本にしよう。",
+      "who": "主人公"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "CH_CLEAR",
+      "fadeMs": 500
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "おわり。"
+    },
+    {
+      "op": "PAGE"
+    }
+  ]
+}

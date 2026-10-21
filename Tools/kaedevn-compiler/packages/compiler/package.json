@@ -1,0 +1,35 @@
+{
+  "name": "@kaedevn/compiler",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TyranoScript-style @command to JSON compiler for kaedevn",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "kaedevn-compile": "./dist/cli/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@kaedevn/core": "*",
+    "commander": "12.1.0",
+    "ulid": "3.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "visual-novel",
+    "compiler",
+    "tyrannoscript"
+  ],
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "typescript": "5.9.3",
+    "vitest": "1.6.1"
+  }
+}

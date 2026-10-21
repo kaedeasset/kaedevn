@@ -1,0 +1,35 @@
+{
+  "id": "title",
+  "note": "タイトル画面（A1）。UIクオリティ仕様（07/11-02 §4）準拠: 帯プレート見出し（variant dark + highlight金枠）＋CTA階層（はじめる=primaryのみ）。テーマ11ロールのみ使用（hex直書き禁止＝テーマ切替を活かす）。作品名はランタイムが logo Label に差し込む。セーブが無ければ continue は host が enabled:false 化。終了は PC のみ。",
+  "root": {
+    "type": "Panel",
+    "anchor": "fill",
+    "children": [
+      {
+        "type": "VerticalLayout",
+        "anchor": "center",
+        "w": 560,
+        "h": 512,
+        "gap": 14,
+        "children": [
+          {
+            "type": "VerticalLayout",
+            "variant": "dark",
+            "highlight": true,
+            "h": 88,
+            "pad": 10,
+            "children": [
+              { "type": "Label", "text": "作品タイトル", "font": "logo", "h": 68, "align": "center", "center": true }
+            ]
+          },
+          { "type": "Panel", "variant": "spacer", "h": 8 },
+          { "type": "Button", "text": "はじめる", "h": 64, "variant": "primary", "action": "newgame" },
+          { "type": "Button", "text": "つづきから", "h": 56, "variant": "ghost", "action": "continue" },
+          { "type": "Button", "text": "目次", "h": 56, "variant": "ghost", "action": "goto:toc" },
+          { "type": "Button", "text": "設定", "h": 56, "variant": "ghost", "action": "goto:config" },
+          { "type": "Button", "text": "終了", "h": 56, "variant": "ghost", "action": "quit", "hideIf": "touch" }
+        ]
+      }
+    ]
+  }
+}

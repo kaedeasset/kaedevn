@@ -1,0 +1,142 @@
+{
+  "id": "simple",
+  "ops": [
+    {
+      "op": "TEXT_APPEND",
+      "text": "; Simple example scenario"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "*start"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "#ナレーター"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ある日の午後。"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "公園のベンチに座っていると、声をかけられた。"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "#さくら"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "こんにちは！"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "今日はいい天気ですね。"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "; Show character sprite"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "@chara_show name=sakura storage=sakura_smile x=640 y=360"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "#主人公"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "（明るい子だな...）"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "@jump target=choice1"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "*choice1"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "#ナレーター"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "どう返答する？"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "; TODO: Add choice command support in Phase 2"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "@jump target=good_ending"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "*good_ending"
+    },
+    {
+      "op": "BG_SET",
+      "id": "storage=park_evening"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "#さくら"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "また会いましょうね！"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "@chara_hide name=sakura"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "#ナレーター"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "こうして、新しい友達ができた。"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "; End of scenario"
+    },
+    {
+      "op": "PAGE"
+    }
+  ]
+}

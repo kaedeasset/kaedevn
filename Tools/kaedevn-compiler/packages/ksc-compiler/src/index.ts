@@ -1,0 +1,11 @@
+export * from './types/index.js';
+export { tokenize, LexerError } from './lexer.js';
+export { parse, ParseError } from './parser.js';
+export { typeCheck } from './checker.js';
+export type { TypeCheckResult } from './checker.js';
+export { E } from './checker/errors.js';
+export type { TypeCheckError, ErrorCode } from './checker/errors.js';
+export { emitIR, EmitError } from './emitter.js';
+export type { EmitOptions } from './emitter.js';
+export { VM, VMError } from './vm.js';
+export type { HostAPI, VMOptions, VMResult, VMResultStatus, VMState } from './vm.js';

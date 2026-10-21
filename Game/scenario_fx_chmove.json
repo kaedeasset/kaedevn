@@ -1,0 +1,36 @@
+{
+  "id": "fxmove",
+  "title": "立ち絵移動 デモ（CH_MOVE）",
+  "labels": { "start": 0 },
+  "ops": [
+    { "op": "BG_SET", "id": "01KSHMKAKBNVRWG7HDXF781VAS" },
+    { "op": "CH_SET", "name": "mira", "pos": "right", "fadeMs": 400 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "CH_MOVE の確認用です。いま右に立っています。クリックで左へ動きます。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "CH_MOVE", "name": "mira", "pos": "left", "durationMs": 900 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "左へ移動中です。移動を待たずに本文を送れます（CH_MOVE は同期扱い）。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "CH_MOVE", "name": "mira", "pos": "center", "durationMs": 600 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "中央へ。両端を緩めた ease-in-out（smoothstep）で動きます。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "CH_SET", "name": "elder", "pos": "left", "fadeMs": 300 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "2人にします。次のクリックで、速度を変えて同時に動かします。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "CH_MOVE", "name": "mira", "pos": "right", "durationMs": 700 },
+    { "op": "CH_MOVE", "name": "elder", "pos": "center", "durationMs": 1400 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "mira は 700ms、elder は 1400ms。独立して動きます。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "CH_MOVE", "name": "mira", "x": 0.75, "durationMs": 500 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "pos の代わりに x（0=左端 / 1=右端）で中間位置も指定できます。これは 0.75 です。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "CH_CLEAR" },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "以上です。止まる位置が left / center / right と一致しているかも見てください。" },
+    { "op": "WAIT_CLICK" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "toc",
+  "note": "目次（章・話選択/回想。設計書§10 の chapter_select に相当）。帯プレート見出し＋カード化（UIクオリティ仕様 07/11-02 §4）。既読章のみ選択可（未読は enabled:false）、現在位置は icon ▶。項目は現状プレースホルダで、将来 authoring の chapters[] から repeat で生成し read フラグを結線する。",
+  "root": {
+    "type": "Panel",
+    "anchor": "fill",
+    "children": [
+      {
+        "type": "VerticalLayout",
+        "anchor": "safe",
+        "pad": 32,
+        "gap": 16,
+        "children": [
+          {
+            "type": "HorizontalLayout",
+            "variant": "dark",
+            "highlight": true,
+            "h": 56,
+            "pad": 8,
+            "gap": 12,
+            "children": [
+              { "type": "Label", "text": "目次", "font": "logo", "flex": 1, "align": "left", "margin": 6 },
+              { "type": "Button", "text": "閉じる", "variant": "ghost", "w": 140, "action": "close" }
+            ]
+          },
+          {
+            "type": "HorizontalLayout",
+            "variant": "light",
+            "flex": 1,
+            "pad": 20,
+            "gap": 24,
+            "children": [
+              {
+                "type": "VerticalLayout", "flex": 1, "gap": 8,
+                "children": [
+                  { "type": "Button", "text": "はじめから", "h": 46, "variant": "ghost", "action": "jump:start" },
+                  { "type": "Button", "text": "第一章 枯れた泉", "h": 46, "variant": "ghost", "action": "jump:ch1" },
+                  { "type": "Button", "text": "第二章 森の眷属", "h": 46, "variant": "ghost", "action": "jump:ch2" },
+                  { "type": "Button", "text": "第三章 泉の記憶", "h": 46, "variant": "ghost", "action": "jump:ch3" },
+                  { "type": "Button", "text": "第四章 守り人の約束", "h": 46, "variant": "ghost", "action": "jump:ch4" },
+                  { "type": "Button", "text": "第五章 雨の来ない季節", "h": 46, "variant": "ghost", "action": "jump:ch5" }
+                ]
+              },
+              {
+                "type": "VerticalLayout", "flex": 1, "gap": 8,
+                "children": [
+                  { "type": "Button", "text": "第六章 眷属たちの夜", "h": 46, "variant": "ghost", "icon": "▶", "highlight": true, "action": "jump:ch6" },
+                  { "type": "Button", "text": "第七章 泉のねがい", "h": 46, "variant": "ghost", "enabled": false },
+                  { "type": "Button", "text": "第八章 最後の守り人", "h": 46, "variant": "ghost", "enabled": false },
+                  { "type": "Button", "text": "終章", "h": 46, "variant": "ghost", "enabled": false },
+                  { "type": "Button", "text": "スタッフロール", "h": 46, "variant": "ghost", "enabled": false }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

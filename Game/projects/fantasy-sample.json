@@ -1,0 +1,66 @@
+{
+	"id": "fantasy_block_demo",
+	"title": "ファンタジー（ブロック版デモ）",
+	"pages": [
+		{
+			"id": "page1",
+			"name": "第1話 - 枯れた泉",
+			"blocks": [
+				{
+					"id": "start-1",
+					"type": "start"
+				},
+				{
+					"id": "bg-1",
+					"type": "bg",
+					"assetId": "01KSHMK3T7F6PTKTEX6DW06WZ7"
+				},
+				{
+					"id": "text-1",
+					"type": "text",
+					"speaker": "ナレーション",
+					"body": "ルカは、いつもの足取りで村の中央にある泉へと向かっていた。"
+				},
+				{
+					"id": "ch-1",
+					"type": "ch",
+					"charAssetId": "luca",
+					"pos": "C",
+					"visible": true
+				},
+				{
+					"id": "text-2",
+					"type": "text",
+					"speaker": "ルカ",
+					"body": "……泉が、枯れている。こんなことは初めてだ。"
+				},
+				{
+					"id": "bg-2",
+					"type": "bg",
+					"assetId": "01KSHMKAKBNVRWG7HDXF781VAS"
+				},
+				{
+					"id": "text-3",
+					"type": "text",
+					"speaker": "ルカ",
+					"body": "村のみんなが困る前に、なんとかしないと。"
+				},
+				{
+					"id": "ch-2",
+					"type": "ch",
+					"charAssetId": "mira",
+					"pos": "L",
+					"visible": true
+				},
+				{
+					"id": "text-4",
+					"type": "text",
+					"speaker": "ミラ",
+					"body": "ルカ、待って。一人で抱え込まないで。"
+				}
+			]
+		}
+	],
+	"assets": [],
+	"schemaVersion": 1
+}

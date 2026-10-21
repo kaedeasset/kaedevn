@@ -1,0 +1,72 @@
+{
+  "id": "load",
+  "note": "ロード画面。スロット6（load:1..6）。空スロットは host（SKaedeMomijiUIWidget）が起動時のファイル有無で enabled:false に切り替える。",
+  "root": {
+    "type": "Modal",
+    "w": 900,
+    "h": 430,
+    "dim": true,
+    "pad": 0,
+    "gap": 0,
+    "children": [
+      {
+        "type": "VerticalLayout",
+        "h": 430,
+        "pad": 28,
+        "gap": 20,
+        "children": [
+          {
+            "type": "HorizontalLayout",
+            "variant": "dark",
+            "highlight": true,
+            "h": 56,
+            "pad": 8,
+            "gap": 12,
+            "children": [
+              { "type": "Label", "text": "ロード", "font": "logo", "flex": 1, "align": "left", "margin": 6 },
+              { "type": "Button", "text": "×", "variant": "ghost", "w": 40, "action": "close" }
+            ]
+          },
+          {
+            "type": "VerticalLayout",
+            "variant": "light",
+            "flex": 1,
+            "pad": 16,
+            "gap": 14,
+            "children": [
+              {
+                "type": "HorizontalLayout",
+                "flex": 1,
+                "gap": 14,
+                "children": [
+                  { "type": "VerticalLayout", "variant": "atelier-card", "flex": 1, "pad": 8, "action": "load:1", "children": [ { "type": "Label", "text": "スロット1", "font": "bold", "flex": 1, "align": "center", "center": true } ] },
+                  { "type": "VerticalLayout", "variant": "atelier-card", "flex": 1, "pad": 8, "action": "load:2", "children": [ { "type": "Label", "text": "スロット2", "font": "bold", "flex": 1, "align": "center", "center": true } ] },
+                  { "type": "VerticalLayout", "variant": "atelier-card", "flex": 1, "pad": 8, "action": "load:3", "children": [ { "type": "Label", "text": "スロット3", "font": "bold", "flex": 1, "align": "center", "center": true } ] }
+                ]
+              },
+              {
+                "type": "HorizontalLayout",
+                "flex": 1,
+                "gap": 14,
+                "children": [
+                  { "type": "VerticalLayout", "variant": "atelier-card", "flex": 1, "pad": 8, "action": "load:4", "children": [ { "type": "Label", "text": "スロット4", "font": "bold", "flex": 1, "align": "center", "center": true } ] },
+                  { "type": "VerticalLayout", "variant": "atelier-card", "flex": 1, "pad": 8, "action": "load:5", "children": [ { "type": "Label", "text": "スロット5", "font": "bold", "flex": 1, "align": "center", "center": true } ] },
+                  { "type": "VerticalLayout", "variant": "atelier-card", "flex": 1, "pad": 8, "action": "load:6", "children": [ { "type": "Label", "text": "スロット6", "font": "bold", "flex": 1, "align": "center", "center": true } ] }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "HorizontalLayout",
+            "h": 48,
+            "gap": 12,
+            "children": [
+              { "type": "Panel", "variant": "spacer", "flex": 1 },
+              { "type": "Button", "text": "閉じる", "variant": "primary", "w": 180, "action": "close" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

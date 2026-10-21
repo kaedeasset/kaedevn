@@ -1,0 +1,6 @@
+[
+  { "slug": "luca", "name": "ルカ", "defaultExpressionId": "normal",
+    "expressions": [{ "slug": "normal", "name": "normal", "kind": "static" }] },
+  { "slug": "mira", "name": "ミラ", "defaultExpressionId": "normal",
+    "expressions": [{ "slug": "normal", "name": "normal", "kind": "static" }] }
+]

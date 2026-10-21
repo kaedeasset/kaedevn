@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "projectId": "ks-sample",
+  "keys": [
+    "bg_spring_dry",
+    "bg_spring_night",
+    "luca:normal",
+    "mira:normal"
+  ],
+  "bg": [
+    "bg_spring_dry",
+    "bg_spring_night"
+  ],
+  "ch": [
+    "luca:normal",
+    "mira:normal"
+  ],
+  "bgm": [],
+  "se": [],
+  "voice": []
+}

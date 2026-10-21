@@ -1,0 +1,74 @@
+{
+  "id": "menu",
+  "note": "プレイ中メニュー。帯プレート見出し＋カード化（UIクオリティ仕様 07/11-02 §4）。クイックロードはクイックセーブ未実行時 enabled:false（host 結線）。",
+  "root": {
+    "type": "Modal",
+    "w": 900,
+    "h": 480,
+    "dim": true,
+    "pad": 0,
+    "gap": 0,
+    "children": [
+      {
+        "type": "VerticalLayout",
+        "h": 480,
+        "pad": 24,
+        "gap": 16,
+        "children": [
+          {
+            "type": "HorizontalLayout",
+            "variant": "dark",
+            "highlight": true,
+            "h": 56,
+            "pad": 8,
+            "gap": 12,
+            "children": [
+              { "type": "Label", "text": "メニュー", "font": "logo", "flex": 1, "align": "left", "margin": 6 },
+              { "type": "Button", "text": "×", "variant": "ghost", "w": 40, "action": "close" }
+            ]
+          },
+          {
+            "type": "VerticalLayout",
+            "variant": "light",
+            "flex": 1,
+            "pad": 16,
+            "gap": 14,
+            "children": [
+              {
+                "type": "HorizontalLayout",
+                "flex": 1,
+                "gap": 14,
+                "children": [
+                  { "type": "Button", "text": "セーブ", "flex": 1, "variant": "ghost", "action": "goto:save" },
+                  { "type": "Button", "text": "ロード", "flex": 1, "variant": "ghost", "action": "goto:load" },
+                  { "type": "Button", "text": "目次", "flex": 1, "variant": "ghost", "action": "goto:toc" },
+                  { "type": "Button", "text": "環境設定", "flex": 1, "variant": "ghost", "action": "goto:config" },
+                  { "type": "Button", "text": "タイトルへ", "flex": 1, "variant": "ghost", "action": "goto:title" }
+                ]
+              },
+              {
+                "type": "HorizontalLayout",
+                "flex": 1,
+                "gap": 14,
+                "children": [
+                  { "type": "Button", "text": "クイックセーブ", "flex": 1, "variant": "ghost", "action": "quicksave" },
+                  { "type": "Button", "text": "クイックロード", "flex": 1, "variant": "ghost", "enabled": false, "action": "quickload" },
+                  { "type": "Button", "text": "解説書", "flex": 1, "variant": "ghost", "action": "goto:manual" }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "HorizontalLayout",
+            "h": 48,
+            "gap": 12,
+            "children": [
+              { "type": "Panel", "variant": "spacer", "flex": 1 },
+              { "type": "Button", "text": "閉じる", "variant": "primary", "w": 180, "action": "close" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

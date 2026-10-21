@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "fantasy",
+      "title": "枯れた泉の守り人",
+      "authoring": "projects/fantasy-sample.json",
+      "scenario": "scenario.json"
+    },
+    {
+      "id": "fantasy_generated",
+      "title": "枯れた泉の守り人",
+      "authoring": "projects/fantasy_generated.json",
+      "scenario": "scenario_fantasy_generated.json"
+    },
+    {
+      "id": "fxdemo",
+      "title": "画面エフェクト デモ",
+      "type": "vn",
+      "scenario": "scenario_fx_demo.json"
+    },
+    {
+      "id": "fxmove",
+      "title": "立ち絵移動 デモ（CH_MOVE）",
+      "type": "vn",
+      "scenario": "scenario_fx_chmove.json"
+    },
+    {
+      "id": "spritedemo",
+      "title": "スプライト演出 デモ（SPRITE/TEXT_SPRITE/MASK/TIMELINE）",
+      "type": "vn",
+      "scenario": "scenario_sprite_demo.json"
+    }
+  ]
+}

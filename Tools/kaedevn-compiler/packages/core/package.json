@@ -1,0 +1,11 @@
+{
+  "name": "@kaedevn/core",
+  "version": "0.0.1",
+  "description": "KaedeVN の Op IR とタイムラインの型（コンパイラが使う型だけ。実行時のコードは持たない）",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": { "build": "tsc" },
+  "devDependencies": { "typescript": "5.9.3" }
+}

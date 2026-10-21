@@ -1,0 +1,9178 @@
+{
+  "id": "01KSHMK3STYFN0FFJG9H6N6R4H",
+  "title": "ファンタジー - 枯れた泉の守り人",
+  "ops": [
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 1
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKAKBNVRWG7HDXF781VAS"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、いつもの足取りで村の中央にある泉へと向かっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いつもなら、遠くからでも清らかな水のせせらぎが聞こえ、涼やかな水の匂いが風に乗っ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "て届くはずだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、今日の村はひどく静かだった。ただ、乾いた風が土埃を巻き上げ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肌を撫でるだけだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "normal",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "泉の前にたどり着いたルカの目に飛び込んできたのは、信じがたい光景だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつて村人たちの喉を潤し、生活の営みを支えてきた「命の泉」は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "見るも無残な姿に変わり果てていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "水底から何かによってごっそりと吸い上げられたかのように、完全に干上がっている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひび割れた土と、苔むすこともなく乾ききった石が広がり、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "沈黙だけが辺りを重く支配していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾ききった空気は、土埃の混じった微かな熱を帯びている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いつもなら活気に満ちた泉のほとりには、不安げな顔をした村人たちが集まり、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひそひそと囁き合っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その囁き声と、風が乾いた草を揺らす音だけが、不気味なほど静まり返った空間に響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、かつて澄んだ水を満たしていた泉の底に、そっと手を伸ばした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした水の感触はなく、熱を帯びたひび割れた土が指先に触れる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そこからは、微かに、しかし確かに、土の奥底に閉じ込められた湿り気の匂いがした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、泉が完全に死んだわけではない、小さな希望のようにも思えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "thinking",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "…まさか、こんなにまで",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの小さな呟きは、沈黙に吸い込まれるように消えていった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、その瞳の奥には、不安と共に、この状況を何とかしようとする、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "素朴で確かな決意の光が宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "luca"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKEDS00J1Q9VHS88R5NYQ"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "夜の帳が降りたルカの小屋は、ランプの柔らかな光に包まれ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しっとりとした静けさに満ちていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "パチ、パチと燃える小さな炎が、微かに燻る油の匂いと温かい熱を放ち、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古びた木の壁をぼんやりと照らす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "serious",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは使い込まれた机に肘をつき、分厚い薬草学の古文献を読み漁っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "頁をめくるたび、カサカサと乾いた紙の音が静かに響き、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "何世紀もの時を経て染み込んだ埃と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土のような古い紙の匂いがふわりと舞い上がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、過ぎ去った遥かな時間の温もりと、研究に没頭するルカの熱気を帯びた空気と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "優しく混じり合った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の傍らには、普段なら瑞々しい緑を湛えるはずの薬草が、生命力を失い、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しおれかかっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつて泉の豊かな恵みを受けて育ったその葉は、乾いた手触りで、僅かに土と水分の抜け",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "たような寂しい匂いを漂わせている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その萎れた姿が、ルカの胸に重い不安を広げた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "worried",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この村の命綱だった泉が涸れ果てて以来、薬草はみるみるうちに活力を失っていったのだ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、泉と村の守り神とされる「大樹」との間に、何らかの繋がりがあるのではないか",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "藁にもすがる思いで書物を探していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "幾度となく指を滑らせた頁の一枚に、彼の指先がふと止まる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "褪色した挿絵には、まさに求めていた「大樹」が描かれていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大きく根を張り、天に向かって伸びゆくその雄大な姿。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして、その根元からは、清らかな水が豊かに湧き出す泉が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "細い線で丁寧に描写されている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "絵の中にまで、澄んだ水の涼やかな感触と、生命の息吹が伝わってくるようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古文書の温もりが、冷え込み始めた夜の小屋で、ルカの指先に確かな希望の熱を灯した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この絵が示すように、きっと泉はまた甦るはずだ。彼の胸に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かながらも温かな決意が宿った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "luca"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKAWQEN3X7GFQESY776SH"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "朝の光が長老の家の窓から静かに差し込み、まだ微睡みが残るルカの頬を優しく撫でる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "部屋に満ちる香木と、長く時を刻んできた古い木材の匂いは、どこか懐かしく、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "心を落ち着かせる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、その穏やかな空気の底には、泉の異変がもたらす一抹の不安が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい雫のように沈んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "anxious",
+      "pos": "right"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "calm",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老、朝早くに申し訳ありません。ですが、泉のことがどうしても気になって…あの、",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大樹の…",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老はゆっくりと顔を上げ、窓から差し込む朝日の暖かな光が、その皺深く穏やかな顔を",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "優しく照らしていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "部屋に漂う香木の香りが、その静かな言葉を包み込む。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "calm",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "案ずるな、ルカ。お主の心が痛むのは当然のことじゃ。",
+      "who": "長老"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この村の命は、すべてあの大樹と泉の恵みによって支えられておる。泉の異変は、",
+      "who": "長老"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まさしく大樹の異変…",
+      "who": "長老"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老の言葉は、これまで聞いたことのない深い響きを帯びていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "過去の記憶を辿るように、長老はわずかに目を閉じ、沈黙が部屋を支配する。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その沈黙は、事態の深刻さを物語る重い空気を含んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "thinking",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "これまでも、大樹が少しばかり元気をなくすことはあった。",
+      "who": "長老"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だが、これほどまでに泉が枯れ果てるのは…初めてのことじゃ。",
+      "who": "長老"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老は傍らの小さな棚から、幾重にも巻かれた古びた羊皮紙を取り出した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "触れるだけで崩れ落ちそうなほどに脆いその紙からは、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "埃と長い歴史の匂いが微かに立ち上る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "指先がそれを丁寧に開くと、そこに記された古の文字が、朝の光に鈍く輝いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "serious",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古文書には、大樹が深く病んだ時、選ばれし者がその『癒し』の役目を果たすと記されて",
+      "who": "長老"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "おる。",
+      "who": "長老"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まだ確かなことは言えぬが…ルカ、お主にその可能性があるやもしれぬ。",
+      "who": "長老"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "normal",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その言葉は、冷たい不安の中に差し込む一筋の光のようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、長老の真っ直ぐな眼差しと、部屋に満ちる温かな香木の香りを深く吸い込んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、漠然とした使命の予感と、小さな勇気の熱を胸に灯すものだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "right"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 2
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKF9Q827GBZCPRK4288RT"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "anxious",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "serious",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつて村人たちの陽気な声が響き渡った広場は、今は異様な静けさに包まれていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土の匂いが、湿気を帯びていつもより濃く、不安をかき立てるように鼻腔をくすぐる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老の、いつもは朗々とした声も、今日はどこか沈みがちで、その言葉一つ一つが広場の",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "空気を重くしていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大樹への調査。その言葉に、村人たちの間に不安げなざわめきが広がった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "互いの顔を見合わせる彼らの視線がルカへと注がれるたび、ひんやりとした空気が肌を撫",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "でるように感じられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "重苦しい雰囲気の中、遠くから吹き付ける風が、寂しげな調べを奏でていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "uneasy",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その中で、一人の幼い子どもが、小さな手をルカの服の裾に伸ばし、きゅっと握った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その手のひらの温かさが、ルカの心に微かな温もりを灯す。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "子どもの心配そうな琥珀色の瞳は、澄んだ泉のようにルカを見上げていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "gentle_smile",
+      "pos": "center"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKCYYRGAN481TH23XM3WE"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "luca"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "elder"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "stoic",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "薄暗いガルドの家には、冷たい鉄と古びた革の匂いが混じり合っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "使い込まれた剣や鎧が壁にかけられ、鍛冶場から帰ってきたばかりのような鉄の冷たい匂",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いが鼻腔をくすぐる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "一方、長年愛用されてきた革張りの椅子や本の匂いは、この部屋に染み付いた静かな時間",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "の重みを語っているかのようだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "窓から差し込む光も届かない部屋の奥、ガルドは黙って座り、使い古された革の香りがす",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "る手帳をゆっくりと開いていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その顔には、過去の戦いの日々を物語る深い傷跡が刻まれている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そんな静寂を破るように、扉がコンコンと控えめに叩かれた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷えた空気の隙間を縫うように、老いた長老の声が響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドや。少し良いかのう？",
+      "who": "長老"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "neutral",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "calm",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは返事をせず、手帳を閉じる。軋む木の床が、わずかな足音を立てた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老が中へ入ると、部屋の張り詰めた空気が少しだけ緩んだような、温かい匂いがした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、野花の香りと、温かいパンのような優しい匂いだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "急で悪いが、そなたに頼みたいことがある。ルカを…あの若者を、",
+      "who": "長老"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "遠い里まで護衛してはくれぬか？",
+      "who": "長老"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "tense",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老の言葉に、ガルドの表情がわずかに強張る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "旅路を連想させる「遠い里」という言葉が、彼の中に燻る古い傷を刺激した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "喉の奥に、鉄錆のような苦い味が広がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "旅路は、彼にとって常に過去の血と硝煙の匂いを伴うものだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……儂はもう、剣を振るう身ではない。それに、旅など……",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの声には、冷たい拒絶の色が滲んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "過去の戦場の喧騒が、再び耳の奥で木霊するような、重い沈黙が部屋を満たす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肌に触れる空気までが、ひんやりと冷たくなったように感じられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "elder",
+      "pose": "persuasive",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "分かっておる。そなたが、どれほどの傷を負ってきたか。この村で、",
+      "who": "長老"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "静かに暮らしたい気持ちもな。",
+      "who": "長老"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "じゃが…ルカは、素朴な勇気を持つ子だ。",
+      "who": "長老"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして、村の未来には、そなたのような真の強さが必要なのだよ",
+      "who": "長老"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "conflicted",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長老の声は、ガルドの心の奥底に染み込むように温かく、彼の冷えた心にそっと触れる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古びた窓枠から、一筋の柔らかな日差しが差し込み、部屋の冷たい鉄の匂いをわずかに薄",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その光はガルドの険しい表情を照らし出し、彼の固く閉ざされた瞳の奥に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かな希望のきらめきを宿しているかのようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "日差しが触れた肌が、ほんのりと温かい。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKF0807WQ396R6WVYQT98"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "garud"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "elder"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "夜明け前の空気は、まだ肌寒く、深い眠りから覚めきらない村の匂いを運んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "煙突からは朝食の支度を始める家の、かすかな薪の燃える匂いが漂い、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それが冷たい朝の空気に混じって、わずかな温もりを与えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは身支度を整え、出発の準備を終えていた。簡素な革の鎧と、使い慣れた杖。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "手のひらに伝わるその木の温もりが、小さな勇気を与えてくれるようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "displeased",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "隣には、不機嫌そうな顔をしたガルドが立っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "厚く重い鉄の甲冑は、夜の間に冷え切ったのか、周囲の空気を一層引き締めるかのように",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひやりとした金属の感触を放っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "腰に提げられた使い込まれた剣の鈍い光沢が、彼の無言の決意を物語っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その全身から漂う重圧感は、ルカの幼い心に頼もしさと同時に、言葉にならない緊張を呼",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "び起こした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "村の入り口には、見送りの村人たちが集まっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らの顔には、冒険者たちへの心配と、そしてかすかな希望が入り混じっている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "口々に発せられる「どうかご無事で」という祈りの言葉は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "早朝の澄んだ空気に溶け込み、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "二人の背中をそっと押すようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らが手渡してくれた、まだ温かい焼きたてのパンの匂いが、小さな胸に温かい絆の記憶",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "を呼び覚ます。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "determined",
+      "pos": "right"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "hopeful",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドが重いブーツで土を踏みしめる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ザリ、という音が静かな村の朝に響き、それが旅立ちの合図となった。ルカも一歩、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の後に続く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まだ肌寒い早朝の空気の中、希望と不安が入り混じった、小さな、しかし確かな一歩が大",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "樹へと続く道を歩み始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 3
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK7ZS52RZY6JB90HB9K7H"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "normal",
+      "pos": "right"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "normal",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "村の賑わいが遠のき、土の道がやがて、鬱蒼と茂る森の入り口へと誘っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "差し込む陽光は、木々の葉を透かして柔らかな光の筋となり、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "地面にまだら模様を描いている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした森の空気が、まるで優しく抱きしめるかのように肌を包み込み、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "外界の喧騒を静かに遮断する。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土と、雨上がりのようにしっとりとした落ち葉の匂いが混じり合い、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肺の奥まで澄み渡る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鳥たちのさえずりだけが、この静謐な空間で生命の息吹を伝えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは周囲の気配に鋭い視線を巡らせた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "足元の落ち葉を踏みしめる度に、微かな湿気を含んだ土の匂いが立ち上る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼が神経質なまでに集中するその背中からは、この先の森の深さを知る者の気迫が静かに",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "伝わってきた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "serious",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、古文書の中で読んだ「妖しい輝きを放つ神秘の森」や「獣が咆哮する危険な迷宮",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "」といった描写と、目の前の穏やかな光景との間に、微かな戸惑いを覚えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "指先で触れる木々の幹は、古くからそこにある確かな温もりを伝え、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "吹き抜ける風はただ優しく頬を撫でるだけだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "書物の中の物語よりもずっと静かで、そして何よりも「素朴な」森の入り口。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女は、その予想外の透明感に、そっと息をのんだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "left"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK89Y7RN4PD6SVC957E1C"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の奥深くへと進むにつれ、獣道は次第に森の濃密な影に溶け込み、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その輪郭を曖昧にしていった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつての賑やかな鳥のさえずりや風に揺れる葉の音は遠ざかり、どこか底冷えするような",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "静寂が辺りを支配している。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "空気は重く、ひんやりとした湿気を帯びていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは経験からくる鋭い嗅覚で、微かな異変を察知していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長年の冒険が培った彼の肌には、この静けさの裏に潜む不穏な気配が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい風のように囁きかける。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は警戒するように、周囲の木々の合間に目を凝らし、ゆっくりと足を進める。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "serious_alert",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、道の脇に生い茂る植物たちに目を留めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "本来なら陽光を浴びて瑞々しい緑を湛えるはずの葉は、どこか精彩を欠き、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "淡く色褪せたような不自然な色合いをしている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "湿った苔の匂いが辺りに満ちる中、その奥底から、土がゆっくりと腐敗していくような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かな異臭が鼻腔をくすぐった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その匂いは、森が本来持つ生命の温かさとはかけ離れた、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい違和感をルカの心に広げた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "worried",
+      "pos": "left"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK3TAVM9E9342EP5F26CC"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の奥深く、彼らは進むべき道を見失いかけていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "湿気を帯びた土の匂いが一層濃くなり、古い木々の枝葉が天蓋のように陽光を遮り、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした空気が肌を包む。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "どこまで続くとも知れない鬱蒼とした道は、微かな不安を募らせていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "normal",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その時、彼らの視界の片隅に、古木の巨大な根元に佇む一匹の影が捉えられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "月光を宿したかのような銀色の毛並みを持つ、小柄な狐――コンだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "琥珀色の瞳は澄んだ光を宿し、警戒しながらも、どこか優しげな気配を漂わせている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その体からは、湿った森の土と、仄かな木の葉の匂いが混じり合って漂ってくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、ルカの目をじっと見つめ、ゆっくりと前足で地面を掻くような仕草をした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "カリ、カリ、と枯葉が擦れる微かな音が、静寂な森に響く。ルカの胸に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "温かな直感がじんわりと広がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで、この小さな案内人が、彼らに進むべき道を教えてくれようとしているかのようだ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "intelligent",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "hopeful",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "alert",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "待て、ルカ。迂闊に近寄るな",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの声が、低く響いた。その声には、冷たい警戒の色が滲む。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は、未だ見知らぬ存在への不信感を隠さない。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だが、ルカはコンの澄んだ瞳に宿る知性と、そこから滲む温かさに強く惹きつけられてい",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "た。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その瞳は、言葉を持たずとも多くを語る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古木から吹き抜ける風が、コンの柔らかな毛並みを優しく揺らし、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かな森の匂いを運んでくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "gentle_smile",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカはゆっくりと手を伸ばした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは一瞬身を固くしたが、逃げることはせず、わずかにその温かな体に触れさせた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "指先に伝わる柔らかな毛の感触は、森の土の匂いと共に、確かな繋がりを感じさせた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、小さくも温かい、新たな冒険の始まりを告げる合図のように思われた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 4
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKBFFHZJ7QSB209M477HC"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ラーシュ村から続く古い街道は、やがて森の奥へと吸い込まれるように姿を変えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "これまで見慣れた轍の残る土の道は途切れ、足元には湿気を帯びた枯れ葉が厚く積もって",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつては澄んだ空気と木漏れ日が満ちていたはずの「迷いの森」の入り口は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "今やまるで別世界だ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "目の前には、地面から這い上がったかのような濃い灰色の霧が立ち込め、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "木々のシルエットを曖昧にぼかしている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "湿った空気が肌にまとわりつき、ひんやりとした不快感が募る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻腔には、森本来の土の匂いや草花の香りとは異なる、どこか人工的で鼻を刺すような微",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かな異臭が漂い始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それはまるで、遠い記憶の底にある、忘れられた遺跡から漏れ出るような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "薄い鉄錆と生臭さが混じったような匂いだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "serious",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは周囲の異変を肌で感じ取り、ゆっくりと腰の剣に手を添えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の背中からは、微かながらも確固たる警戒の熱が伝わってくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……空気が重いな。警戒しろ、何かがおかしい",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "concerned",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "足元のコンが、不安げに喉を鳴らした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "普段の快活な鳴き声とは違う、低く押し殺したような唸り声が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "湿った霧の中に吸い込まれていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "reassuring",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コン……大丈夫。きっと、僕たちが何とかするよ",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカはコンの頭をそっと撫でながら、前方に広がる霧の森を見つめた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした霧の向こうに、未知の困難が待ち受けていることを肌で感じ取りながらも",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の胸には小さな希望の火が揺らめいていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かに鼻を刺す異臭は、これから始まる冒険の序章を告げているようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "luca"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "garud"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKB64X55TPFD7JBJF8BY3"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の奥へ進むにつれて、霧は肌を刺すようなひんやりとした湿気を帯び、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その濃度を増していった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "一歩足を踏み出すたびに、足元の枯れ葉がじっとりと湿り、沈黙が深まる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "視界は数メートル先すらぼやけ、まるで意思を持ったかのように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "濃い緑色の靄が絡みつく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつて感じた森の清々しい土の匂いは消え失せ、代わりに喉の奥を締め付けるような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かな生臭さが漂い始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "pained",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たく重い空気が肺の奥にまで染み渡り、ルカは次第に息苦しさを覚える。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "隣を歩くコンも、顔色を悪くし、時折こめかみを抑える仕草を見せた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "頭の奥で鈍い痛みがじんわりと広がり、心臓が重い鼓動を打つ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この森は、呼吸するだけで身を蝕むような、不穏な空気を宿しているようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "不意に、コンの足がもつれ、ガクリと膝を折った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた咳を漏らし、熱っぽい息が冷たい地面に白く消える。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その表情は苦痛に歪み、肌はかすかに赤みを帯びていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "shocked",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは思わず駆け寄ろうとするが、その前に周囲の異変が目についた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の植物は、どこか生気を失い、黒ずんだ葉が不自然に丸まっている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生命の輝きを失った木々の間からは、微かな腐敗臭が漂い、森全体がゆっくりと病に侵さ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "れているかのような、寒々しい静けさに包まれていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKCNKB5NEFTVW4GDZG2NT"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森は、深く、濃密な緑色の霧に閉ざされていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "じめりと肌にまとわりつく冷たい湿気が、ルカの呼吸を重くする。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻腔をくすぐる湿った土と、腐葉土の甘酸っぱい匂いは、いつもなら森の息吹を感じさせ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "るものだが、今はただ不安を煽るだけだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "worried",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古道脇の苔むした切り株に寄りかからせられたコンの身体は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ぐったりと意識を失っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "熱で火照っているはずの小さな手が、氷のように冷たくなっていることに、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは胸を締め付けられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は必死に、凍える手でコンの額に濡らした布を当て続ける。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "どうかこの布から伝わるわずかな水の冷たさが、コンの苦しみを和らげてくれますように",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "…",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その時、背後から草を踏みしめる音は一切なく、ただ凍えるような冷気がルカの肌を撫で",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "た。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "霧が割れ、古びた木の葉が擦れるような微かな音が、まるで幻のように耳をかすめる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは森の精が忍び寄るかのような、しかし途方もなく重い気配だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "meera",
+      "pose": "angry",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "深い緑色の霧の中から、森の番人ミーラが姿を現した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の肌は青白く、まるで霧そのものから生まれたかのように透き通っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "琥珀色の瞳は、濁りのない怒りに燃え、ルカとコンを、まるで忌まわしい穢れを見るかの",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ように睨みつけていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の全身からは、森の静謐を侵す者への純粋な憎悪が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "凍える空気となって辺りに立ち込める。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "meera",
+      "pose": "hostile",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "言葉もなく、ミーラは容赦なく襲いかかった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女が大地を蹴るたび、地面から冷たい土の匂いが一層強く立ち上る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "獲物を狙う獣のような、しかし冷徹な狩人の動きは、研ぎ澄まされた刃のように空気を切",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "り裂き、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカとコンを分断しようとする。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その身には、迷いの森を守るという途方もない使命感が、冷たい炎のように宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 5
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKCBX6SV3KSCGMPP0ZZF3"
+    },
+    {
+      "op": "CH_SET",
+      "name": "meera",
+      "pose": "normal",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "fighting",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "迷いの森の古道は、昼間でも薄暗く、湿った土と朽ちた木の葉の匂いが混じり合う。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした空気が肌を刺すような冷え切った空間を、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラは音もなく滑るように動いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは剣を振るったが、突然、地面から這い上がってきたかのように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "濃い青白い霧が視界を覆い尽くした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは皮膚の奥底まで染み込むような冷たさを持ち、古びた鉄と微かな腐敗臭を運んでく",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "painful",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "剣閃は虚しく空を切り、彼自身の呼吸までが重く、苦しくなった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "息を吸い込むたびに、冷たい空気が肺の奥でじりじりと焼けるような痛みを訴えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "meera",
+      "pose": "hostile",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "painful",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "動きの鈍ったガルドに、ミーラの容赦ない攻撃が襲いかかる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい刃が風を切り裂き、ガルドの腕を掠めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その瞬間、彼の肌には熱い血と、それを冷ますかのような刃の温度が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "奇妙な対比となって刻み込まれた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKBR6SCHSKSVG84SJ004C"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "fighting",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "倒木が不自然に横たわる迷いの森の奥で、激しい攻防が続いていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "湿った土の匂いと、腐敗した草木の甘ったるい香りが混じり合い、どこか不穏な空気を作",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "り出している。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの剣が空を切り、コンの盾が重い音を立てるたび、周囲の木々がざわめくが、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その音さえ霧に吸い込まれていくようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "exhausted",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "exhausted",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "worried",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドとコンは、まるで底なし沼に足を取られたかのように苦しげに息を吐く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らの顔は疲労に彩られ、吐く息さえ白く濁って見える。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その様子を見たルカの胸は、いてもたってもいられない焦燥感で締め付けられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "このままでは、皆、霧に蝕まれてしまう。何とかしなければと、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女は必死に辺りを見回した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "focused",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、剣を構えるガルドとコンの後方で、視線を足元の植物に落とした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "荒々しい戦闘の熱気が届かない場所で、彼女の小さな体は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい地面に這いつくばるようにして、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の奥に広がる薄暗い霧の元凶を探し始める。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "指先が、しっとりとした土壌を這うつる植物の葉を撫でる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その感触は、これまで触れてきた森の生命力とは、どこか異なるざらつきがあった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "細い蔓の隙間から、これまで見たことのない奇妙なものが視界に飛び込んできた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、植物の表面にびっしりと付着した、微細な黒い粉塵だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その粉塵は、ルカの動きに合わせて、ふわりと舞い上がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "disgusted",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻腔を刺激する、鉄錆と焦げ付いた泥が混じり合ったような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "不快で微かな異臭が漂ってきた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "思わず顔をしかめる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "舞い上がった黒い胞子が、腕を伝って肌に触れた瞬間、チリッとした、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひりつくような刺激が走った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで、冷たい水に指先を浸した後に、急に熱いものに触れたような錯覚。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この肌を刺すような違和感と、鼻につく錆びた匂い、そして周囲を覆う霧の成分が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "直感的に繋がり合った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "epiphany",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "これだ……！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい森の空気に、わずかな突破口の熱が宿り始める。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKC267N90P3HQ88XPB5Z4"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "迷いの森の古道は、異様な深い緑色の霧に沈み込んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "地面から這い上がるように蠢く霧は、視界を奪い、鼻を刺すような酸っぱい匂いを立ち込",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ませる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "喉の奥が焼け付くような、尋常ならざる熱気を秘めたその気配は、ただの霧ではないこと",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "を如実に物語っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "足元に広がる植物は、本来の鮮やかな緑を失い、黒ずんで不気味に脈打つような光沢を放",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この霧は、この植物の変異によって生成されている！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの焦燥に満ちた声が、重い霧の壁に吸い込まれるように響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の息は白く、額には冷たい汗が滲んでいたが、その瞳には真実を見抜いた確信の光が宿",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は異変の原因を突き止めたのだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドさん！ミーラを足止めしてください！原因を突き止めなければ、この森は……！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "meera",
+      "pose": "surprised",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは、背後で息を呑むコンの気配を感じながら、ミーラを正面から見据えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラは、ルカの叫びに一瞬、その冷徹な琥珀色の瞳を揺らがせたように見えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで、自身の縄張りで起きた異変を指摘され、不意を突かれたかのように。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そのわずかな間隙に、周囲を覆う淀んだ空気が微かに清澄な冷気を帯びたような錯覚を覚",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "える。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "meera",
+      "pose": "hostile",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "tense",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だが、その動揺は一瞬だった。次の瞬間には、再び獲物を狙う猛獣のような冷たい殺意が",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瞳に宿る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の纏う冷気が一層強く研ぎ澄まされ、肌を刺した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドに向けられたその視線は、もはや躊躇いを許さない。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女は自身の役割を全うするかのように、再びガルドへとその牙を剥こうと身構える。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大地を踏み締めるその足元からは、森の生命力を吸い取るかのような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "不吉な振動がじんわりと伝わってきた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この異変が、森の番人であるミーラ自身も知らない、もっと深い場所から来ているのだと",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いう、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "世界の深淵を覗き込むような予感に、ガルドは戦慄を覚えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 6
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK95543FM6Q550VS918YC"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "neutral",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "concerned",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "vigilant",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "迷いの森の奥深く、木々の間を縫って現れる小さなせせらぎは、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "澄んだ水の音を立てていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした川風が頬を撫で、どこか薬草のような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土の混じった優しい匂いを運んでくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、その清らかな流れとは対照的に、周囲の空気には微かな淀みと、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の奥から漂う不吉な湿り気が混じっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは、警戒の色を瞳に宿し、少し離れた場所で静かにミーラを見つめている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラさん、お願いです。この森で何が起こっているのか、",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "知っていることを教えてください。",
+      "who": "ルカ"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "私には、この森が病んでいるように見えるんです。あなたも、",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "きっと同じ気持ちでしょう？",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "troubled",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカのまっすぐな言葉に、ミーラはきゅっと唇を引き結んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の視線は、澄んだ小川の水面から、再び木々の暗い奥へと向けられる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつては豊かな葉を揺らしていた木々も、今ではどこか生気を失ったように見え、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その様子が彼女の心に重くのしかかっているようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の頬には、ひんやりとした不安がよぎる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……私の一族には、森の異変が起きる時、守りし者だけが知る言い伝えがあります。",
+      "who": "ミーラ"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "でも……それを話すことは、禁じられています",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "でも、森の命がこのまま枯れていくのを、見て見ぬふりはできないはずです。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "あなたの心の痛みが、私にはわかる。どうか、力を貸してください",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "wavering",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの真摯な眼差しが、ミーラの固く閉ざしていた心の扉を、ゆっくりと開いていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の瞳に揺らめく光は、森への深い愛情と、小さな勇気の色だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かすかに息を吸い込み、彼女はごく小さな声で囁いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その声は、せせらぎの音にもかき消されそうなほど、か細く震えている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の奥に……特別な泉がある、と……。そこに、全ての始まりがある、と伝わっています",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "hopeful",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "特別な泉……！ルカの顔に、希望の光が差した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラの言葉は、まるで霧の中に差し込んだ一条の光のようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は即座に腰をかがめ、小川のほとりに生える数種類の薬草に目を凝らす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "指先で触れた葉は、どれも瑞々しく、生命の息吹を感じさせる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は迷うことなく、ある特定の葉を数枚摘み取ると、小川の冷たく澄んだ水に浸した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "水の清冽な匂いが鼻腔をくすぐる。手早く揉み込み、緑色の汁が水に溶け出していく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その間も、ガルドの視線はミーラから離れることはなかった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい風が、彼の身を守る鋼の鎧に微かな音を立てる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつて森の奥で感じた不吉な気配が、まだ彼の中の警戒心を解くことを許さないのだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は、仲間を守るという熱い誓いを胸に、静かに立ち尽くしていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK8JP716YBXCRV9PJKFPV"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "concentrating",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、手のひらの上で慎重に調合を終えた薬液を、迷いの森を覆う濃い霧へと解き放っ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "た。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ヒュッと、微かな風切り音と共に琥珀色の液体が舞い上がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その瞬間、鼻腔を深く刺していた鉛色の霧の匂いが、甘く、そして清々しいハーブの香り",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "に置き換わった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、凍えるような冷たさの中に、確かな温もりの予感を孕んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それまで肌を刺すように冷たかった霧は、まるで命を吹き返したかのように温かい空気を",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "帯び、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ゆっくりと、しかし確実にその姿を薄めていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "深い霧が晴れ始め、ひんやりとした湿気が引いていくのが肌で感じられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK8WCKTEN1D4AJFRZJR4D"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "やがて、濃霧の壁に開いた隙間から、清らかな月の光が森の古道へと降り注いだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その光は、これまで闇と冷気に閉ざされていた世界を、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "希望の薄明かりで優しく照らし出す。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "relieved",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "relieved",
+      "pos": "right"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "relieved",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "疲弊しきっていたガルドとルカの顔に、安堵の光が宿る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラは、ほっと深く息をつき、その温かな光を浴びながら、こわばっていた肩の力をゆ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "っくりと抜いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷え切った身体に、月の光がじんわりと温かさをもたらすようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "weak",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "足元でピクリと動いた気配に、ルカは視線を落とす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ぐったりしていたコンが、小さく震えながら目を開けていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まだ弱々しいが、その琥珀色の瞳には生気が戻っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "recovering",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "gentle",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、細く震える体で、まるで母親を求める子どものように、ゆっくりとルカの足元に",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "すり寄ってきた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その毛皮から伝わる微かな体温が、ルカの心に温かい熱を灯した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森に満ちた、安堵と再生の匂いが心地よかった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK7NXTB6QN169KK4MSMX2"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "重苦しい毒の霧はすっかりと晴れ、森は息を吹き返したように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "柔らかな光に包まれていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "朝露を宿した葉からは、ひんやりとした湿り気が立ち上り、鼻腔をくすぐる清らかな土の",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "匂いが心地よい。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつての静寂は遠ざかり、鳥たちのさえずりがそこここで響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "木漏れ日が地面にまだらに落ち、ひんやりとした空気が頬を撫でた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラは、慣れた足取りで一行を深い森の奥へと導く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "草を踏む微かな音が、澄み切った空気に吸い込まれていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "道なき道をしばらく進むと、苔むした岩肌にひっそりと寄り添うように建つ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "小さな石造りの小屋が見えてきた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK9EGYRXMKXCPH31NDF9R"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "neutral",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "neutral",
+      "pos": "right"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "serious",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "小屋の扉を開けると、そこは簡素ながらも温かい空気に満ちていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "外気のひんやりとした冷たさとは対照的に、中央に据えられた暖炉からは、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "赤々と燃え盛る薪の心地よいパチパチという音が響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻孔には、乾いた薪が燃えるどこか懐かしい匂いが広がり、身体の芯からじんわりと温も",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "りに包まれるのを感じた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……あなたたちの目的、この森の異変を正すという願い。それは、私の役目と重なるもの",
+      "who": "ミーラ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "です",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大樹の眷属として、この森を守る者として……私も、あなたたちと同行させてほしい",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラの声は、かつて感じられた冷たい響きを失い、静かな決意と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "わずかな熱を帯びていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "暖炉の炎が、彼女の顔を優しく照らす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その琥珀色の瞳には、もう迷いの影はなく、燃え盛る薪の炎を映し、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "力強い希望の光が宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、凍てついた心を溶かし、新たな道を照らす、ささやかな温もりを携えた光だった",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 7
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKE3VHSJXDTSJ6BYD9AT8"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "うっそうとした森を抜け、一行の目の前に広がる景色は、あまりにも唐突だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それまでの涼やかな木漏れ日と土の湿った匂いは、一瞬で消え失せる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "代わりに現れたのは、風雨に削られた赤茶けた岩肌が剥き出しの、広大な谷だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつては賑やかな交易路として栄えたという話とは裏腹に、そこは乾ききった大地が広が",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "る荒涼とした「涸れ谷の峠」。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "遮るもののない空から容赦なく降り注ぐ陽光は、肌を刺すような熱気となって全身にまと",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "わりつく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた風がザラリとした土埃を巻き上げ、遠くの岩肌にぶつかって唸るような轟音を響か",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "せた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻をつくのは、熱を帯びた土と砂漠特有の金属臭が混じり合った、鈍く重い匂い。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その乾ききった空気は、喉の奥を焼くようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "足元の小石が風に吹かれて乾いた音を立てながら転がり落ちるたび、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この地の途方もない静寂が強調される。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "worry",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつての豊かさを示す痕跡が微塵もないこの谷……言いようのない違和感を覚える。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この異様なまでの乾きは、ただの自然現象とは思えない。",
+      "who": "ルカ"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "世界の根源に関わるような、不穏な予感が胸の奥にじんわりと広がる。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "遠く、風の轟音に紛れて、微かに鉄錆と焚き火の煙が混じったような匂いがした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、この荒野を根城にする、人の気配。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして、病的な咳と怒声のような、耳障りな音が風に乗って届き、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "旅の緊張感を一層高めていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKDTWN3TCDTE212WPJCNK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷の隘路を進んでいくと、道の真ん中に粗末なバリケードが築かれているのが見えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "寄せ集めの板や岩でできたそれは、かろうじて道を塞ぐ程度の代物でしかない。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "近づくにつれ、埃っぽい風の中に鉄錆と、弱々しい焚き火の煙が混じったような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生々しい人の営みの匂いが混ざり始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "bandit_a",
+      "pose": "weak",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "bandit_b",
+      "pose": "weak",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そのバリケードの物陰から、影のようにやせ細った男たちが数人、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ふらふらと姿を現した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らの衣服は土埃で汚れ、その目は希望を失ったかのように虚ろに窪んでいる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "周囲には、長くこの場所に留まっていたことを示す生臭く、どこか血の混じったような匂",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いが鼻腔をかすめた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……み、水を……！",
+      "who": "盗賊A"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "頼む……一口でいい……",
+      "who": "盗賊B"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "bandit_a"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "bandit_b"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "alert",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "worry",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "警戒心を露わにしたガルドは、一行の前に静かに立ち塞がった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いつでも剣を抜き放てるという研ぎ澄まされた緊張感が、彼の背中から伝わってくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その目は、乾きに苛まれる男たちの虚ろな視線とは対照的に、鋭い光を宿していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "serious",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドが剣の柄に手をかけ、盗賊たちを鋭い眼光で牽制する。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷間を吹き抜ける風がゴーゴーと轟き、乾いた小石がカラカラと音を立てて転がっていく",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "observing",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカはガルドの背後で、警戒しつつも盗賊たちに目を凝らした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "陽光の下で彼らの肌を見ると、所々に赤く不気味な発疹が浮き出ているのがわかる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "唇はひび割れ、生気のない様子で、まるで乾ききった大地そのもののようだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "遠くから聞こえる怒声は力なく、時折混じる乾いた咳の音が谷に響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは健康な人間の出す音とは異なり、胸の奥から絞り出すような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "病的な響きを持っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "realization",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この澱んだ匂いは、ただの汗や埃じゃない。病的な熱を帯びた、不吉な気配……。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肌のひび割れ、倦怠感に満ちた動き、そしてあの咳の音。飢えや渇きだけではない。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らは、何らかの病に冒されているんだ。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの剣が彼らを威嚇する一方で、私の心には別の感情が湧き上がっていた。",
+      "who": "ルカ"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "これは、武力だけで解決できる問題じゃない。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "剣を交えるよりも先に、彼らの苦しみの根源を見つけ、癒やすべきだ。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "私の胸に、薬草師としての新たな使命感が、じんわりと温かい熱を灯し始めた。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 8
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK65ERJRZ8D8A0707YEFC"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "風が轟音を立てて吹き荒れる涸れ谷の峠。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "風雨に削られた赤茶けた岩肌が、過酷な陽光にさらされ、厳しく乾ききっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷底から舞い上がる埃っぽい風は、微かに鉄錆と、弱々しい焚き火の煙の匂いを運んでく",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "粗末な見張り台の影からは、病的な咳が微かに聞こえ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "時折混じる怒声が谷間に虚しく響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そこには、獲物を待ち構えるように、粗暴な盗賊たちが身を潜めていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "hostile",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは一歩前に踏み出し、獲物を狙う猛禽のように鋭い視線を盗賊たちに固定した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その手は、いつでも剣を抜き放てるように、柄に触れている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "周囲の乾いた空気とは裏腹に、彼の体からは静かな闘志の熱が立ち上っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "calm",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、そのガルドの前に、ルカが静かに、そしてゆっくりと歩み出た。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "熱を帯びた乾いた風が、彼の髪をそっと揺らす。敵意のない、透明な眼差しを盗賊のリー",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ダーに向けた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "あなた方は病んでいる。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その言葉に、盗賊たちは一瞬の戸惑いを見せた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "荒んだ表情の奥に、隠しきれない疲労と、どこか生気を失った濁った目が揺れる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この距離でも鼻を突く、彼らの体から漂う独特の淀んだ匂いと、日差しに荒れた肌に刻ま",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "れた病の証拠が、ルカの言葉を裏付けていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "あなた方の目には深い疲労が宿り、その肌は病に蝕まれている。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして、この谷の埃や焚き火の匂いとは違う、重く沈んだ澱んだ気配が感じられます。",
+      "who": "ルカ"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "私たちは、あなた方に敵意はありません。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの鋭い視線は、依然として盗賊たちをしっかりと縛り付けていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その冷徹な圧力が、彼らにルカの言葉に耳を傾けさせる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた谷の熱気が、わずかに緊張の色を帯びて揺らいでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "涸れ谷の峠は、風雨に削られた赤茶けた岩肌を剥き出しにした隘路だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "遮るもののない空から降り注ぐ厳しい陽光は、乾ききった空気に微かな熱を帯びさせ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "疲弊しきった盗賊たちの体には重くのしかかっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷間を吹き抜ける風の轟音に混じり、埃っぽい匂いと、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "粗末な焚き火から漂う鉄錆じみた煙が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らの間を澱ませていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そんな重苦しい空気を切り裂くように、ルカの澄んだ声が響き渡った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "皆さんの病の根源は、他でもない、この涸れ谷の環境そのものにあります。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の言葉は、谷を吹き抜ける風の轟音を一時的にかき消すかのように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "盗賊たちの耳に直接届いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "漠然とした不調の原因が、目の前に提示された衝撃に、彼らの顔色に冷たい影が差した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "風雨に晒され、赤土が流れ込む谷の水は、清らかな栄養を失い、人の体に害をなすものを",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "溶かし込んでいます。",
+      "who": "ルカ"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それを口にするたび、知らず知らずのうちに、体は奥底から蝕まれていくのです。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの淡々とした説明は、ひび割れた大地からじんわりと伝わる熱のように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らの心にじわじわと染み渡った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らが日常的に口にしていた水の匂いが、突如として不吉なものに感じられる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だから、街の薬では癒せません。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この病には、この谷の恵みを正しく引き出し、失われた生命力を取り戻すための、",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "特別な知識が必要なのです。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの言葉は、乾いた谷底に一滴の清らかな水が落ちたかのような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かな希望を運んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、同時に、過去に試した薬がことごとく無力だった記憶が、冷たい小石のように彼",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "らの胸に転がり落ちた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "盗賊たちの間で、ざわめきが大きくなる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鉄錆と弱々しい焚き火の煙が立ち込める中で、彼らの額には、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい汗が滲み始めていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、病の倦怠感から来るものではなく、得体の知れない不安と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの言葉に託された、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "熱い期待とが複雑に混じり合った匂いだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた風が吹き抜け、かすかながらも、彼らの間に確かに希望の種が蒔かれたことを告げ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "涸れ谷の峠を吹き抜ける風が、赤茶けた岩肌を軋ませる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "埃っぽい乾いた空気が肌を撫で、遠くから届く盗賊たちの病的な咳が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この地の過酷さを物語っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そんな中にあって、ルカは揺るぎない眼差しで盗賊団のリーダーを見つめる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の提案は、この冷たい隘路に、これまでとは異なる微かな熱を灯そうとしていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "私たちは、あなたたちの病を癒す薬と、この乾いた土地でも育つ薬草の種子を提供できま",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "す",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの声は、風の轟音に負けることなく、はっきりと響いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その言葉は、凍えきった心にじんわりと染み渡るような、かすかな温もりを宿している。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "盗賊たちが過去に奪った旅人からの略奪品とは異なる、真に価値ある「生きていくための",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "糧」の提案だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その代わり、私たちに安全な通行を保証してほしい。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして、二度と旅人から略奪しないと約束してください",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK6FFNXP1ZEWGYXS1C1QG"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "盗賊団のリーダーは、風雨に削られた冷たい岩肌に、重い身体を下ろした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "目の前には、かつての活気からは想像もできないほど、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "やつれ果てた部下たちの顔が並んでいる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "風が運ぶ焚き火の煙と、鉄錆の匂いが混じり合い、過去の過ちの記憶を呼び起こすようだ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は、部下たちの弱々しい咳の音に耳を傾けながら、乾いた唇を固く結んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "選択肢は二つ。",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この絶望的な略奪を続けるか、それともこの見知らぬ少年の差し伸べる、小さな、",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし確かな『一筋の光』に乗るか。",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その問いが、彼の内側で重く響き渡る。",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた大地に、これまで感じたことのない種類の、未来への可能性をはらんだ熱が、",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かに伝わってくるようだった。",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の乾いた唇から、重い決断の言葉が、今にも漏れそうになっていた。",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 9
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK65ERJRZ8D8A0707YEFC"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "風雨に削られた赤茶けた岩肌が剥き出しの隘路。涸れ谷の峠は、いつも乾いた風の轟音に",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "満ちていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "埃っぽい風が鼻腔をくすぐり、遠くから聞こえる盗賊たちの病的な咳や、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かすれた怒声が谷間に響く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "リーダーは、ルカの真摯な眼差しを前に、長く続く疲弊と絶望の匂いに満ちた未来と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "差し出された小さな希望の間に揺れていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた喉をゆっくりと動かし、彼はついに小さく頷いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "sincere",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "bandit_leader",
+      "pose": "wavering",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは持参していた小さな革袋から、乾燥した薬草を取り出した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷に漂う鉄錆と焚き火の煙が混じった重い匂いをかき消すように、そこから清涼な、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土と森の香りがふわりと広がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の指先が慣れた手つきで薬草を砕き、簡素な治療薬と、手のひらに載るほどの乾燥に強",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "い穀物の種子を慎重に分け与えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、この過酷な地に根付く未来の命の証だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "calm",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "小さな薬草の袋が手渡されると、盗賊たちの疲弊し、土埃にまみれた顔に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "微かな期待の光が灯った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らの瞳は、長らく飢えと絶望に澱んでいたが、この清涼な香りが、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "凍える谷の空気の中で、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かすかな温もりを運んできたように感じられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "リーダーは、震える手でルカの手を掴んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その掌からは、略奪の人生で知ることのなかった、確かな温かさが伝わってきた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それはまるで、冷え切った大地に春の兆しを感じるような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "じんわりとした温もりだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "bandit_leader",
+      "pose": "hopeful",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの曇りのない琥珀色の瞳と、その手の温かい感触が、リーダーの心に深く響いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は、この涸れた谷で、奪い合うことしか知らなかった自分たちの生き方に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "初めて別の可能性を見出した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼が握り返した手には、略奪以外の、新たな生命の道を託す決意が宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷を吹き抜ける風の音は変わらないが、その音の奥底に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "新しい息吹の予感が混じり始めていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この不毛な涸れ谷に、未来への小さな、しかし確かな種が今、蒔かれようとしていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "bandit_leader",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK5VGFHHTJFP87RMSR847"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつてはわずかながらも命の気配に満ちていたこの涸れ谷の峠は、今は風雨に削られた赤",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "茶けた岩肌が剥き出しの隘路となっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "空は広く、遮るものがないため陽光は容赦なく照りつけ、乾ききった大地を容赦なく熱く",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "焼いている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷間を吹き抜ける風は轟々と唸り、小石が乾いた音を立てて転がり落ちる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "埃っぽい風が顔を撫で、遠くから届く盗賊たちの病的な咳や怒声が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この場所の荒廃を物語っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、その中でも粗末な見張り台の岩陰では、微かに焚き火の煙が混じった埃っぽい空",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "気の中で、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "数人の盗賊たちがルカの言葉に耳を傾けていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "リーダーと思しき男が、体中に染み付いた鉄錆の匂いが漂う中、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かすれた声でルカに問う。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "坊主、お前が持っているという種子（たね）は、こんな涸れた土地でも育つのか？",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして…俺たちにも、そのやり方を教えてはくれまいか。",
+      "who": "盗賊頭"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、手のひらに乗せた小さな種子を、壊れやすい宝物のように見つめていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた土壌でも根を張るための工夫、水の少ない環境での育ち方、そして何よりも、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "諦めずに手をかけ続けることの大切さを、以前読んだ書物や自身の経験を交え、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "温かい声で丁寧に語りかける。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の言葉は、谷を吹き荒れる冷たい風とは対照的に、盗賊たちの心にじんわりと染み入る",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ような温もりを帯びていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "gentle_smile",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは少し離れた場所から、静かにその様子を見守っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の肌を撫でる夕刻の冷たい風とは裏腹に、ルカの言葉と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それを真剣に聞く盗賊たちの間に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "確かに信頼という名の微かな熱が芽生えつつあるのを肌で感じ取っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつての荒々しい怒声は消え、小さな希望の気配が、埃っぽい空気に溶け込んでいく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "observant",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "日没が近づき、谷には夕焼けの冷たい色が深く差し込み始める。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "赤く染まる空の下、ルカの言葉は、ただの知識ではなく、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "乾いた土壌を潤す一滴の雫のように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "未来への道筋を確かに照らし出す、不思議な温かみに満ちていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その場には、ささやかな希望の匂いが満ちるのを感じた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK72VSYRNMZPSXT6505BQ"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "luca"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "bandit_leader"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "gald"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK6RJBMYJ31MH6B9MWJED"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "涸れ谷の峠を後にする一行。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "風雨に削られた赤茶けた岩肌が続く隘路を歩く彼らの背には、先ほどまでの張り詰めた空",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "気が嘘のように、かすかな解放感が漂っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "振り返れば、岩陰に粗末に築かれた見張り台からは、もはや旅人を襲うような殺気は感じ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "られない。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつては威嚇と強奪の眼差しを向けていた盗賊たちが、ルカが手渡した小さな種子を、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "不思議そうに、そしてわずかな興味を帯びた瞳で眺めているのが見えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "谷間を吹き抜ける風は、依然として乾いた熱を帯びていたが、その中に混じる匂いは、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "もはや鉄錆と弱々しい焚き火の煙だけではなかった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "どこか清々しい、新しい土の匂いが微かに鼻腔をくすぐる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、略奪と絶望に満ちた過去の記憶を洗い流し、小さな希望の芽吹きを予感させる未",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "来の匂いだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "手のひらに残る種子の感触を思い起こし、心が温かくなるのを感じた。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "困難な交渉を乗り越え、荒れた大地にささやかな希望を植え付けた満足感が、",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "胸の奥からじんわりと広がっていく。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの腕組みした背中、コンの落ち着いた足音、ミーラの優しい視線。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼ら一人ひとりの心に、新たな決意の火が灯る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大樹を目指す彼らの足取りは、力強く、そしてどこまでも清々しかった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 10
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKEQ434AWZT1TGM9EBE24"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "「大樹」は、かつて空を覆うほどの偉容を誇ったが、今は多くの葉が色褪せ枯れ落ち、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その威光は陰っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "根元には、まるで生き物のように黒く光る粘液質の汚染が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大地に張り付くように広がっている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "油のようにねっとりとした冷たい粘液からは、焦げた鉄と腐ったエーテルが混じり合った",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "化学的な異臭が絶えず鼻腔を突き刺す。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは生命が腐敗するどころか、魂そのものが蝕まれていくような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "耐え難い悪臭だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつての豊かな生命が脈打っていた土の温もりは完全に失われ、辺りの空気は淀み、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肌にまとわりつくように重かった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "汚染の中心からは、不気味な魔力の残光が、生命の鼓動のように微かに明滅している。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その黒い輝きの中で、しかし、細々とした命の光も揺れていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "汚染に蝕まれながらも、必死に生き残ろうとする若芽が、かすかに緑の光を放っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生命の息吹が消えた墓場のような静寂が広がる中、粘液が時折「ぷつり」と泡立つ音が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その沈黙を不気味に破った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "serious",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは慎重に一歩踏み出し、汚染の縁に膝をついた。ひんやりとした空気が頬を撫でる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "指先で粘液の表面をそっと触れると、油分を含んだねっとりとした冷たさが、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肌の奥までじんわりと染み渡った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKEQ434AWZT1TGM9EBE24"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "これは……ただの病気なんかじゃないわ。",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この匂い……焦げた鉄と、何か得体の知れないものが腐り落ちたような……こんなものは",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "、",
+      "who": "ルカ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "薬草学のどの文献にも載っていない。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "shocked",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは、その粘液を凝視するや否や、全身を硬直させた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の琥珀色の瞳は大きく見開かれ、表情から血の気が引いていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい粘液から立ち上る化学的な異臭が、彼の記憶の深淵に沈んでいた、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつての戦場の悪夢を鮮明に呼び覚ました。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "脳裏には、鉄錆と焦げ付くような匂い、そして耳を劈くような爆音の幻聴が木霊する。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その喧騒の幻影と、この場の重い静寂との激しい対比が、彼の心をさらに深く抉った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "anguish",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの拳が固く握りしめられ、手のひらの上で爪が食い込む。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は、かつて浴びた戦場の泥に似た、この粘液から目を離せずにいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……この匂いだ……この感触……忘れるものか……。",
+      "who": "ガルド"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "禁忌の兵器の残滓……まさか、こんな場所で、再び……",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の声は、苦悶に満ちた呻きのように掠れ、震えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その背中には、かつての激しい炎熱とは異なる、底冷えするような後悔と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "言い知れぬ恐怖の念が纏わりついていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 11
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKD8BAHVY8R8K85FG7FDF"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大樹の根元に広がる空洞は、かつて通った清らかな洞窟とは似ても似つかない、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "重苦しい空気に満ちていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肌を刺すような湿気がまとわりつき、何かがゆっくりと腐敗していくような、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "甘くねっとりとした匂いが鼻腔を支配する。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生命の息吹は感じられず、冷たい土と濁った水が滴り落ちる音だけが、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "不気味に響いていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その光景は、大樹がかつて宿していた生命力とは真逆の、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "緩やかな死の気配を色濃く漂わせている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "tired",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、ひどく疲れた様子で、巨大な汚染された根にそっと身を寄せた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その小さな体は、冷たい湿気と、計り知れない不安に震えているようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いつもの茶目っ気は影を潜め、琥珀色の瞳は深く沈んだ悲しみを湛えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……ごめんね。みんなに、隠していたことがあるんだ",
+      "who": "コン"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "絞り出すような声は、いつもよりずっと小さく、震えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その声は、ひどく冷たい空洞の中に、重く沈んでいった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "sad",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "僕は……この大樹の眷属なんだ。大樹の力が、僕に分かち与えられている。",
+      "who": "コン"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だから……もし、大樹が枯れてしまえば……僕も、消えちゃうんだ",
+      "who": "コン"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、身を震わせながら告白した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の言葉は、汚染された根から立ち上る腐敗臭よりも、重く苦い衝撃を周囲に与えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その小さな体が、まるで朽ちかけた大樹そのものの姿のように、悲しみを背負っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "kon"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKDHCTJ58V63KA9310ZQ6"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "番人の古跡の入り口は、冷たい影に深く沈んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつては聖なる光が差し込み、生命の息吹に満ちていたはずの場所は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "今は重苦しい静寂に包まれている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした空気が肌を刺し、奥からは微かに淀んだ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "金属のような匂いが漂ってくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "陽光が届かない岩肌には、凍えるような冷たさが貼り付いていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、まるで過去の惨劇が、その場に凍りついているかのようだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "surprised",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンの告白が終わり、沈黙が訪れると、ミーラは突如として全身に戦慄が走るのを感じた",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その冷たい震えは、ただの寒さではない。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古跡の奥から這い寄るかのような、まとわりつく澱んだ空気が、彼女の肌に触れるたび、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "遠い記憶の扉を叩く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻腔を掠める、あの独特の酸っぱいような、腐敗したような匂い。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、かつて彼女の一族を滅ぼした『黒き瘴気』の記憶と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "あまりにも重なりすぎていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "determined",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラの琥珀色の瞳は、かつての楽園が崩れ去る光景を幻視するかのように揺れた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、その瞳の奥には、恐怖だけではない、確かな決意の光が宿る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この禍々しい気配が、自身のルーツと繋がっていることを悟った瞬間、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の心に新たな責務が芽生えたのだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……この気配、間違いありません。私の故郷を蝕んだ、あの『黒き瘴気』と同じ……",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……でも、一族の古文書に、この穢れを鎮めるための記述があったはずです。",
+      "who": "ミーラ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "もしかしたら、ここに、解決の糸口が……",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 12
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK3TDPTVQNMDAR73Z2RHA"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "巨大な古木の根元は、かつての豊かな緑を失い、黒々とした粘液に覆われていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生命力に満ちたはずの大地の鼓動は鳴りを潜め、代わりに鼻腔を掠めるのは、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土の匂いを歪ませるような奇妙な、甘くもどこか嫌な化学的な匂いだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "辺りの空気はひんやりと重く、湿気を帯びて肌にまとわりつく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "serious",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは屈み込み、汚染された根の表面に張り付く粘液に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "慎重にガラス製の採取棒を差し入れた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "粘液は糸を引きながら、微かな冷たさを指先に伝え、皮膚に触れると、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ぴりりとした刺激が走る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで生きているかのように、棒の先端にまとわりつく感触だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "sharp",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドはルカの背後で、周囲を鋭く見渡していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "視覚が捉えるのは、ただの泥とは異なる不自然な黒い塊。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "地面から立ち上る微かな匂いは、かつて戦場で嗅いだことのある、魔術兵器が使用された",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "後の残滓を思わせるものと似ていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は、この場所の静寂が、かえって深い警戒を促すことを知っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "枯れた葉が風に転がる音が、耳に微かに届く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "focused",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "透明なバイアル瓶に、黒い粘液がわずかに満たされる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガラス越しでも、その粘液が放つ独特の、薬品のような匂いははっきりと感じられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瓶の表面はひんやりとして、どこか生物めいた重みがある。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "observant",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは汚染された地面を避け、まだ生命の息吹を残す岩肌に沿って歩を進めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひび割れた岩の隙間から、わずかに硫黄のような匂いが漂ってくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の目は、不自然なひずみや、過去の痕跡を示すような刻印がないかを慎重に追っていた",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その視線の先には、汚染を免れたわずかな場所で、それでも懸命に息づく小さな野花が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "か細い希望のように咲いていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "luca"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "gard"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK5JDXFTK7YJDN2KP3RSW"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンの案内とミーラの記憶を頼りに、一行は深く鬱蒼とした森の中へと進んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつては番人が巡回し、賑やかな足音や会話が響いていたであろう小道は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "今はひっそりと静まり返っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "湿った土の匂いが鼻をくすぐり、ひんやりとした森の空気が肌を撫でる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古木の枝を揺らす風の音だけが、ザワザワと辺りに木霊し、どこか忘れ去られたような静",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "寂が一行を包み込んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "hopeful",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "normal",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gard",
+      "pose": "normal",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラは時折、視線をさまよわせながらも、その瞳の奥には確かな光を宿していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この書庫こそが、大樹の『未知の現象』や『世界の謎』、そして汚染に対抗するための記",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "述が残されている、一族の希望の場所だと信じているのだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "わずかに温かな希望の熱が、冷たい森の空気の中で彼女の胸を満たしている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ここに……きっと、私たちの一族が代々書き残してきた大切なものがあるはずなの。",
+      "who": "ミーラ"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大樹の、そして世界の謎を解き明かす鍵が……",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "gentle_smile",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "うん。俺たちも、きっと見つけ出す手伝いをするよ",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 13
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK58EHVPZ8Q618K3YQAKG"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の奥へ足を踏み入れるごとに、空気は肌を刺すように冷たさを増した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "入り口付近の清々しい風とは打って変わり、湿った霧が地面を這い、視界を重く遮る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土は異様なまでにぬかるみ、踏みしめるたびにズプ、ズプと嫌な音を立てる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻腔には、甘ったるくもどこか胸を悪くさせる腐敗臭がまとわりつき、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生気を吸い取るような重苦しい空気が漂っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "normal",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは慎重に足元を選びながら進むうち、ふと、地面に目を留めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "闇に沈む森の中で、ぼんやりと妖しく光る植物が群生している。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、文献で読んだ「月光草」によく似ていたが、その色は決して目にすることのない",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "毒々しいほどの濃い紫色に染まりきっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "本来の澄んだ白い輝きは失われ、冷たい不吉な光を放っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その根元に指先を伸ばしかけたルカの手が、ぴたりと止まる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まさか……これが、『月光草』……？こんなに、毒々しい色に……",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その変異した月光草こそが、この森の汚染を浄化する鍵となる可能性を秘めていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、同時にそれは、危険な存在がそこに集まっている証でもあった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "森の静寂の中、ガサリ、と近くの茂みが大きく揺れる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "獣道には、異様に深くえぐられた轍のようなものが続き、その先から、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "僅かに土と混じった鉄のような匂いが風に乗って届く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "このあたりを縄張りとする巨大な甲虫型モンスター、「毒棘虫」がすぐ近くを徘徊してい",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "る証だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その姿は見えないが、重々しい気配が、肌をチリチリと刺す。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "serious",
+      "pos": "right"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "normal",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "worried",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この気配……厄介なのが、近くにいるな。ルカ、下がっていろ",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "あの腐敗臭、毒棘虫のヤツ、近くで何かを食い散らかしてるな。……甘い匂いが混じって",
+      "who": "コン"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "る",
+      "who": "コン"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカ、無理はしないで。でも、私たち、必ず協力するからね",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK3TF6HJKDF2J773GVHQ9"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "汚染された森の奥地は、薄暗く湿った空気が澱んでいた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そこは腐敗と鉄錆が混じり合ったような、鼻を突く独特の匂いに満ちている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "木々はねじれ、地面からは異様な色の胞子が立ち上り、ひどく重い空気が全身にまとわり",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "つくようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そんな瘴気の渦巻く空間で、ガルドは毒棘虫と対峙していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "毒棘虫は、鈍い光沢を放つ硬い甲羅に身を包み、俊敏な動きでガルドの剣撃をかわす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "キン、と剣が空を斬る音と、甲羅に当たった時のグン、と沈むような感触が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの手に重く響いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "苛立ちとともに、剣を握る手にじわりと汗が滲む。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "一瞬、ガルドの視界が歪んだ。",
+      "who": "ガルド"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "過去の激戦、夥しい血と鉄錆の匂い、そして冷たい絶望に包まれた戦場が、",
+      "who": "ガルド"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "幻影となって脳裏をよぎる。",
+      "who": "ガルド"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "手が、剣が、鉛のように重くなる。心臓の冷たい鼓動が、全身に響き渡った。",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "painful",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その隙を突き、毒棘虫が鋭い毒棘を振るう。危ういところで身を翻し、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは大きく息を吐き出した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい後悔の汗が背中を伝う。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルド！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "serious",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの必死な声が、凍りついた思考を破った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "見やると、彼女は少し離れた場所で、月光草の隣にしゃがみ込み、小さな薬瓶を手に震え",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "る指で何かの薬を調合している。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その額には、集中からくる汗の雫が光っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "混ぜ合わされた薬草から、かすかに清涼な香りが漂い、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瘴気を一時的にかき消すようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの真剣な横顔、そして守るべきものの存在が、ガルドの胸にじんわりと温かい光を灯",
+      "who": "ガルド"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "す。",
+      "who": "ガルド"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "過去の冷たい幻影は、まるで陽炎のように消え去った。",
+      "who": "ガルド"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "目の前の敵を打ち倒し、ルカを、そして世界を守る。",
+      "who": "ガルド"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その揺るぎない覚悟が、ガルドの全身を熱い力で満たした。",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ハァッ！",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは咆哮し、再び剣を構える。その視線はもはや迷いなく、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "毒棘虫の僅かな隙を捉えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "一瞬の駆け引きの後、彼の剣が毒棘虫の硬い甲羅の継ぎ目に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鈍い音を立てて深く突き刺さる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "グズッ、という嫌な感触とともに、緑色の体液が噴き出した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "辺りに、さらに強烈な酸っぱい匂いが広がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "毒棘虫は甲高い悲鳴を上げ、その巨体を大地に崩れ落とした。瘴気の渦巻く森に、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "再び微かな静寂が戻る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの全身からは、戦いの熱気が湯気のように立ち上っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "やった…！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカが安堵の息を漏らし、震える手で月光草の根元に触れた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした葉の感触と、独特の透明感ある香りが、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の緊張を少しずつ解きほぐす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そっと土から抜き取り、柔らかな光を宿すその薬草を、まるで壊れ物を扱うかのようにリ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ュックへと慎重に収めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その小さな背中には、確かな希望の温もりが宿っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "relieved",
+      "pos": "center"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK3THZ903NM4QH3CCQ2Y1"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、喉の奥で低く唸り声を上げながら、深い森の奥へと一行を導いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりと湿った空気が肌を包み、足元からは腐葉土と湿った土の匂いが立ち上る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古木が覆い尽くす暗がりの中、木々の合間から、かすかに光を反射する古びた石造りの構",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "造物が顔を覗かせた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その場所だけは、森の冷たさとは異なる、どこか温かく、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして澄んだ気配を漂わせていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "一歩、また一歩と構造物に近づくにつれて、その温かく澄んだ空気の流れは、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "よりはっきりと感じられるようになった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それはまるで、長い眠りから覚めた鼓動のように、周囲の淀んだ森の空気を押し退け、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "清らかな香りを運んでくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "目の前に現れたのは、深く苔むした石の祭壇だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "幾千もの時を刻んできたであろうその石肌は、湿り気を帯びたひんやりとした触感で、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "周囲の朽ちた木々とは一線を画す、荘厳な静けさを湛えていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "祭壇の足元には、朽ちた木々の骸の中で唯一、生命力を保ったまま微かに光る不思議な植",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "物が群生していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その淡い光は、祭壇全体を優しく照らし、周囲に微かな甘い、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "土のような匂いを漂わせる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "手のひらで触れると、ひんやりとした苔とは対照的に、植物からはじんわりと温かな生命",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "の熱が伝わってきた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは祭壇の前で立ち止まり、その琥珀色の瞳を祭壇に向けた後、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "確かな身振りで一同に告げた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……ここが、儀式を行う場所ってことか？",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この、温かな生命が宿る場所が…。",
+      "who": "ガルド"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "garud",
+      "pose": "calm",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで、森が護ってきた聖域みたい…。",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "impressed",
+      "pos": "center"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 14
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKA0K9Y4J2EHMNQHFYXX4"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "祭壇からさらに深い場所へと進むと、光が届かない領域に足を踏み入れた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "巨大な根が複雑に絡み合い、まるで生命そのものが道を塞いでいるかのように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "薄暗い迷宮を形作っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "重く湿った空気が肌にまとわりつく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻腔をくすぐるのは、樹液の甘く、どこかねっとりとした独特な匂いだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、この場所が森の深い悲しみを秘めた心臓部であることを告げているようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "迷宮の奥、わずかに差し込む光の先に、目的の『生命の雫』を宿す花が淡い光を放ってい",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "た。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その柔らかな色合いは、この暗闇の中で一筋の希望のように見えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だが、その聖なる花を守るように、無数の巨大な根が幾重にも重なり、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで生き物のようにうねっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ゴオオオ、と低い唸り声が、土の下から響いてくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "一歩近づくたびに、根の先が威嚇するように身をくねらせ、通路を塞ごうとする。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その動きには、明らかに拒絶の意志が宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "仲間たちが息を呑む中、ミーラはゆっくりと、最も大きくうねる根へと歩み寄った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その一歩一歩は、迷いなく、けれど慈しみに満ちていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そっと指先を伸ばし、太く、硬く、冷たい根の表面に触れる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "触れた瞬間、彼女の心に直接響いてくるかのように、森全体の深い悲しみと、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "理不尽な怒りの波動が流れ込んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、言葉にならない嘆きと、すべてを拒むような強い念だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "calm_closed_eyes",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラは静かに目を閉じ、深く息を吸い込んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして、根に触れたまま、まるで子を諭すかのように、やわらかな声で語りかけた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "もう、苦しまなくていい。鎮まって……安らかに眠りなさい",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラの言葉が、森の重苦しい空気に静かに溶け込んだ瞬間、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "信じられないことが起こった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ゴオオオ、という唸り声は、やがてフウ、とため息のような音へと変わり、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "威嚇するようにうねっていた巨大な根の動きが、ぴたりと止まった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで、彼女の言葉に耳を傾けたかのように、根の壁がゆっくりと左右に分かれ始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そこからは、奥に咲く花の、ほのかな甘い香りが、さわやかな風と共に流れ込んできた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "暗闇の中に、ようやく開かれた希望の道。その先には、生命の雫が静かに輝いていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK9QV976PM4YX9R6C2B5T"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生命の雫を手に入れた安堵は、沼地の前に立ち尽くす一行の背後へ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "あっという間に消え去った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "目の前に広がるのは、生命の輝きを嘲笑うかのような、異様にぬるんだ毒の沼地。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "水面は重く濁り、底の見えない不吉な暗い色をしていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "腐卵のような強烈な硫黄臭が鼻腔を突き刺し、まとわりつくような湿気が肌に不快なぬる",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "みを与える。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "視界を遮るように地を這う毒性のガスが、周囲の空気を薄暗く変えていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "視界を遮るガスの切れ間から、ぼんやりとした影が幾つも蠢き始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それらは、かつてガルドの心を苛んだ記憶そのもののように、冷たい嘲笑を浮かべた幻影",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "の群れだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "沼のぬるい淀みから立ち上るかのように現れ、まとわりつく腐敗臭が幻影の存在をより一",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "層、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "生々しく感じさせる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "fear",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドの足は沼の冷たい泥に捕らえられたかのように、ぴたりと動きを止めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "幻影の冷たい視線が突き刺さり、彼の胸の奥で、かつての敗北と後悔が腐敗臭のようにじ",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "わじわと広がる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その感覚は、毒の霧よりも冷たく、彼を再び絶望の淵へと引きずり込もうとしていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "desperate",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドさん……僕たちには、あなたの剣が必要です！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "sharp_gaze",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、彼の目を真っ直ぐに見据えた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その瞳は、沼の瘴気すら吹き飛ばすような鋭い光を放ち、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "『お前はもう一人ではない』と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "無言の熱いメッセージをガルドの心に直接語りかけるようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "お前は、もう一人ではない",
+      "who": "コン"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "roaring",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの澄んだ声と、コンの鋭い視線が、ガルドの凍りつきそうだった心に温かな炎を灯し",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "た。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼は大きく息を吸い込み、魂の底から咆哮する。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その声は、沼地の淀んだ空気を震わせ、まとわりつく毒の霧を一瞬だけ押しやった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドは迷いなく剣を抜き放つ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鉄錆と焦げ付くような匂いが鼻腔を突き、過去の後悔が木霊する中、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その冷たい切っ先が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "幻影の身体を正確に打ち砕く。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "剣が空を切るたび、腐敗臭が一時的に薄れ、微かな清冽な風が吹き抜けた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼を守るように前に立つガルドの背中には、揺るぎない守りの熱が宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "幻影の群れは、仲間の温かい光を宿した剣の前で、霧散するように消え去っていった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "沼のぬるみと不気味な静けさの中で、仲間たちの温かい息遣いだけが、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "確かな鼓動として響いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK3THZ903NM4QH3CCQ2Y1"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "concentrating",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古の祭壇の中央で、ルカは集めた材料を石のテーブルに広げ、調合の準備を進めていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "祭壇の石はひんやりと冷たく、指先から伝わる感触が、なぜか不安を掻き立てる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "カサカサと乾いた薬草が触れ合う音、液体が入った小瓶の重みが手のひらに伝わる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、いくら試しても特定の素材が馴染まない。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この祭壇を取り巻く淀んだ空気は、金属的な、どこか錆びついたような匂いをかすかに含",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "んでおり、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それが繊細な調合の邪魔をしているようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "frustrated",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "くそっ……これじゃ、まともなものは作れない",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "worried",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは苛立ちに眉をひそめた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "この汚染された環境下では、浄化薬の重要な材料が安定せず、濁ってしまったり、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "分解されてしまう。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで、空気そのものが調合を拒んでいるかのようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その時、そばに寄り添っていたコンが、心配そうにルカの腕に鼻先を擦りつける。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "疲弊の色は隠せないものの、その毛並みからは変わらない温もりと、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "どこか大地を思わせる安心する匂いがした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "realization",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ふと、ルカは特定の材料が、古の祭壇に満ちる浄化の微かな力と、コンが放つ特別な匂い",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "を伴う波動を組み合わせなければ安定しないことに気づく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、遥か昔に読んだ書物に記されていた、ごく僅かな記述だった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、ルカの視線を受けて小さく鳴くと、祭壇の中心にある、古の文字が刻まれた石版",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "へとゆっくりと歩み寄る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その足取りは重そうに見えたが、瞳には確かな決意が宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "determined",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは石版に自身の鼻先をそっと押し付けた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひやりとした石の感触をものともせず、目を閉じ、古の文字を刻むかのように全身の力を",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "集中させる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "すると、石版の溝が淡い金色の光を帯び始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その光は、コンの疲れた身体からじんわりと放たれる熱と、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かすかな木の芽の匂いを伴って、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "祭壇全体に柔らかく広がっていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "周囲を包んでいた淀んだ金属的な匂いは、その光と匂いによって少しずつ薄れ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "清らかな空気が満ちていくのが肌で感じられた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "温かい光が調合台の材料を包み込むと、それまで不安定だった液体が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "魔法のように澄み渡っていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは息を呑み、急いで残りの素材を正確に混ぜ合わせた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "混ぜ合わせた液体は、透き通るような緑色を帯び、底から淡い光を放っている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かすかに漂う木の芽の匂いが、その成功を知らせるようにルカの鼻腔をくすぐった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "諦めかけた心の奥底に、一筋の希望が差し込むのを感じた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "浄化薬のベースとなる液体が、ついに完成したのだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "joyful",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コン……ありがとう！できた、これなら……！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_page",
+      "value": 15
+    },
+    {
+      "op": "VAR_SET",
+      "name": "_totalPages",
+      "value": 15
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMK3T7F6PTKTEX6DW06WZ7"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "serious",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "古の祭壇の中心に立ち、ルカは深く息を吸い込んだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした石の感触が足元からじんわりと伝わり、古びた土の匂いが静かに漂う。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "serious",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そっと浄化薬を祭壇の中心にある窪みに置くと、ガラス瓶の中でたゆたう液体が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瞬く間に淡い光を放ち始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その光は、古びた石の隙間からこぼれる太陽の光のように、優しく、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして僅かながら温かい輝きを宿していた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "しかし、その束の間の安堵を打ち破るかのように……突然、祭壇を囲む大樹の根元から、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ごう、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "と大地を震わせるような重い轟音が響いた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "同時に、濁った闇色の瘴気が、地面を這うように猛烈な勢いで噴き出してくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは瞬く間に祭壇全体を覆い尽くし、清らかな光を押し潰すように、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "あたりを凍えるような冷気と腐敗した土の匂いで満たした。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "pained",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカの肌を刺すような寒さだ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瘴気はまるで怨念そのものが形を得たかのように、ゆらめきながら儀式を妨害しようと、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "重苦しい圧力をもって迫る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瘴気の力が、祭壇そのものにも襲いかかる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "長きにわたり時を刻んできた祭壇の石は、ミシミシと不吉な音を立ててひび割れ始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そのひび割れた隙間からは、古代の文字が赤く、まるで血のように禍々しい光を放ち、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい闇の中で不気味に瞬いている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "determined",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瘴気の重苦しい圧力は、ルカの心にも冷たい影を落とす。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だが、彼女の瞳には、まだ小さな希望の光が宿っていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "determined",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ガルドはルカの前に立ち塞がった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "瘴気は生き物のようにうねり、ひんやりとした粘着質な気配で肌を這い、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "鼻腔には酸っぱい腐敗臭がまとわりつく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "だが、彼の握る剣からは、確かな守りの熱が放たれていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "shouting",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "渾身の力で剣を振るうたび、冷たい霧のような瘴気が温かい光によって裂かれ、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "一瞬にして消え去っていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その切っ先が描く軌跡は、暗闇に差し込む一筋の希望のようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "praying",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラは古の祭壇に刻まれた、ざらりとした石の感触を両の掌に感じた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼女の意識は、石を媒介に遥か森の奥へと繋がっていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "大樹が悲鳴を上げ、深い根が腐っていくような痛みが、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "己の胸を直接抉るように伝わってくる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たい瘴気に蝕まれ、今にも絶え入りそうな森の鼓動が、彼女の心臓と共鳴した。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "どうか、私たちを信じて……！",
+      "who": "ミーラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ミーラの祈りが空気に溶け込むと、辺りを重く覆っていた瘴気が、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで嘘のように薄まり始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たく刺々しかった空気は少しずつ穏やかになり、酸っぱい腐敗臭の隙間から、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "遠い土の匂いが微かに感じられるようになった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "weakened",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは最後の力を振り絞り、祭壇の冷たい石の溝へと、ゆっくりと身を横たえた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ひんやりとした石の肌触りが、衰弱した彼の体にじんわりと染み渡る。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼の肉体から放たれる温かい生命の光が、祭壇に染み込ませてあった浄化薬と共鳴し、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その液体を静かに活性化させていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "同時に、周囲には温かく湿った土の匂いが、まるで春の息吹のように広がり始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、生命が満ちていく、確かな再生の香りだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "praying",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカが最後の言葉を紡ぎ終えるやいなや、手のひらの浄化薬は、これまでの旅路の全てを",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "宿すかのように眩い光を放ち始めた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "どうか……この森に、再び命の輝きを……！",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その光は螺旋を描きながら、古の祭壇の中心にそびえ立つ大樹へと吸い込まれていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "同時に、森を重く覆っていた瘴気と、肌を刺すような冷気は、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで嘘のように晴れていった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かわりに吹き抜けるのは、清冽な風だ。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その風は、湿った土と若葉が混じり合う、どこまでも爽やかな匂いを運び、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "肺腑までを洗い流すように心地よい。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "kon",
+      "pose": "smile_peaceful",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "コンは、静かに目を閉じた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その表情には、長い旅の終わりを悟ったような、穏やかな笑みが浮かんでいる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ゆっくりと、彼の身体は淡い光の粒となり、風に舞いながら消えていく。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_HIDE",
+      "name": "kon"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "温かな光が、ミーラやガルド、そしてルカの頬をそっと撫でて、別れを告げるように優し",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "く通り過ぎていった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "その瞬間、遠くからゴウゴウと、何かが勢いよく流れ落ちるような水音が響き渡った。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "それは、途絶えていた生命の脈動が再び始まったことを告げるかのようだった。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BG_SET",
+      "id": "01KSHMKA9M7E2SW9TKEPAJ8AM0"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "surprised",
+      "pos": "center"
+    },
+    {
+      "op": "CH_SET",
+      "name": "gald",
+      "pose": "relieved",
+      "pos": "left"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "joy_tearful",
+      "pos": "right"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ラーシュの村へと戻ると、彼らの目の前には信じられない光景が広がっていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "かつてひび割れて乾ききっていた泉の底から、清らかな水が勢いよく、",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "まるで天から降り注ぐかのように溢れ出している。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "水面は太陽の光を反射してキラキラと輝き、その澄んだ水は、見るからに肌を撫でるよう",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "な冷たさを湛えている。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "村人たちは歓喜に沸き立ち、まるで夢でも見ているかのように、恐る恐る水に手を浸す。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "泉が！本当に、泉が戻った！",
+      "who": "villager_a"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ああ、なんて冷たくて気持ちいいんだ…！",
+      "who": "villager_b"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "冷たくも心地よい水の感触に、彼らは一斉に喜びの声を上げた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そして、その視線は泉の傍らに立つルカたちに向けられる。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "彼らの瞳には、感謝と尊敬、そして何よりも深い希望の光が満ち溢れていた。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "みんな、見てくれ！ルカ様たちが、泉を救ってくれたんだ！",
+      "who": "villager_c"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_STYLE",
+      "nameColor": "default",
+      "bgColor": "default"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "英雄だ！私たちみんなの、英雄だ！",
+      "who": "villager_d"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "RETURN"
+    },
+    {
+      "op": "PAGE"
+    }
+  ],
+  "labels": {
+    "start": 1832,
+    "page2": 158,
+    "page3": 299,
+    "page4": 410,
+    "page5": 538,
+    "page6": 681,
+    "page7": 853,
+    "page8": 958,
+    "page9": 1109,
+    "page10": 1248,
+    "page11": 1316,
+    "page12": 1393,
+    "page13": 1471,
+    "page14": 1649,
+    "page15": 1830
+  }
+}

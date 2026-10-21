@@ -1,0 +1,66 @@
+{
+  "id": "ks-sample",
+  "title": "枯れた泉",
+  "ops": [
+    {
+      "op": "BG_SET",
+      "id": "bg_spring_dry"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカは、いつもの足取りで村の中央にある泉へと向かっていた…",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "luca",
+      "pose": "normal",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "……泉が、枯れている。こんなことは初めてだ。",
+      "who": "ルカ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "CH_SET",
+      "name": "mira",
+      "pose": "normal",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ルカ、待って。一人で抱え込まないで。",
+      "who": "ミラ"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "JUMP",
+      "pc": 10
+    },
+    {
+      "op": "BG_SET",
+      "id": "bg_spring_night"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "夜が明ける。泉の謎は、まだ誰も知らない。",
+      "who": "ナレーション"
+    },
+    {
+      "op": "WAIT_CLICK"
+    }
+  ],
+  "labels": {
+    "page_001": 0,
+    "page_002": 10
+  }
+}

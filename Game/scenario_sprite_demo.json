@@ -1,0 +1,43 @@
+{
+  "id": "sprite_demo",
+  "title": "スプライト演出デモ",
+  "_comment": "Phase 1〜3（SPRITE_*/TEXT_SPRITE_SET/MASK_*/LAYER_SET/TRANSITION/TIMELINE_PLAY）の見た目を確認するための検証用シナリオ。このリポジトリに実在する assets.json の id だけを使う（外部サービス不要）。座標は論理1280x720。screen のキーは w/h（width/height ではない）。",
+  "screen": { "w": 1280, "h": 720 },
+  "ops": [
+    { "op": "BG_SET", "id": "01KSHMKAKBNVRWG7HDXF781VAS" },
+    { "op": "CH_SET", "name": "luca", "pose": "normal", "pos": "left" },
+
+    { "op": "TEXT_SPRITE_SET", "id": "cap_title", "text": "SPRITE / TEXT_SPRITE / TIMELINE 検証（論理1280x720）", "x": 24, "y": 20, "size": 26, "color": "#ffffff", "bold": true },
+
+    { "op": "SPRITE_SET", "id": "back_kon", "storage": "kon", "layer": "back", "x": 420, "y": 120 },
+    { "op": "SPRITE_MOVE", "id": "back_kon", "scale": 0.22, "durationMs": 0 },
+    { "op": "TEXT_SPRITE_SET", "id": "cap_back", "text": "↑ back (kon) x=420 y=120", "x": 420, "y": 96, "size": 20, "color": "#ffd070" },
+
+    { "op": "SPRITE_SET", "id": "front_mira", "storage": "mira", "layer": "front", "x": 420, "y": 120 },
+    { "op": "SPRITE_MOVE", "id": "front_mira", "scale": 0.22, "durationMs": 0 },
+    { "op": "TEXT_SPRITE_SET", "id": "cap_front", "text": "↑ 同座標に front(mira) を重ねた。front が前・テキストは最前", "x": 420, "y": 400, "size": 20, "color": "#70d0ff" },
+
+    { "op": "SPRITE_SET", "id": "slide_gard", "storage": "gard", "layer": "front", "x": 900, "y": 240 },
+    { "op": "SPRITE_MOVE", "id": "slide_gard", "scale": 0.22, "durationMs": 0 },
+    { "op": "TIMELINE_PLAY", "timelineId": "spritedemo_slide_in" },
+    { "op": "TEXT_SPRITE_SET", "id": "cap_tl", "text": "↑ TIMELINE_PLAY 完了: x 900→760 / opacity 0→1", "x": 700, "y": 216, "size": 20, "color": "#a0ffa0" },
+
+    { "op": "TEXT_APPEND", "who": "luca", "text": "スプライト3枚とテキストスプライト4枚。テキストは絵より前に出る。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "CH_EXPR", "name": "luca", "expression": "happy" },
+    { "op": "SPRITE_MOVE", "id": "front_mira", "x": 620, "y": 300, "durationMs": 400 },
+    { "op": "TEXT_APPEND", "who": "luca", "text": "front スプライトが右下へ動く。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "MASK_SET", "color": "#204080", "opacity": 0.55, "durationMs": 300 },
+    { "op": "TEXT_APPEND", "who": "luca", "text": "MASK_SET は本文の上に被さり、MASK_CLEAR まで残る。" },
+    { "op": "WAIT_CLICK" },
+
+    { "op": "MASK_CLEAR", "durationMs": 300 },
+    { "op": "SPRITE_CLEAR", "layer": "back", "fadeMs": 300 },
+    { "op": "TEXT_APPEND", "who": "luca", "text": "back レイヤだけ消える（front は残る）。" },
+    { "op": "WAIT_CLICK" }
+  ],
+  "labels": {}
+}

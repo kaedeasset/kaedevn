@@ -1,0 +1,48 @@
+{
+  "id": "phase1-demo",
+  "ops": [
+    {
+      "op": "BG_SET",
+      "id": "room_day"
+    },
+    {
+      "op": "CH_SET",
+      "name": "hero",
+      "pose": "smile",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "良い朝だ。",
+      "who": "主人公"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "今日は何をしようか。"
+    },
+    {
+      "op": "CH_SET",
+      "name": "hero",
+      "pose": "thinking",
+      "pos": "left",
+      "fadeMs": 300
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そうだ、図書館に行こう。",
+      "who": "主人公"
+    },
+    {
+      "op": "BG_SET",
+      "id": "library",
+      "fadeMs": 500
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "到着した。"
+    },
+    {
+      "op": "PAGE"
+    }
+  ]
+}

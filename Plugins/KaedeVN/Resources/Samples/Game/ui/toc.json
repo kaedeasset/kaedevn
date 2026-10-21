@@ -1,0 +1,46 @@
+{
+  "id": "toc",
+  "note": "目次（見本の作品は 1 章 1 話）。帯プレート見出し＋カード化。選べるのは「はじめから」だけ（章へ飛ぶのはまだ動かないので、章の行は現在位置の ▶ を付けて enabled:false）。",
+  "root": {
+    "type": "Panel",
+    "anchor": "fill",
+    "children": [
+      {
+        "type": "VerticalLayout",
+        "anchor": "safe",
+        "pad": 32,
+        "gap": 16,
+        "children": [
+          {
+            "type": "HorizontalLayout",
+            "variant": "dark",
+            "highlight": true,
+            "h": 56,
+            "pad": 8,
+            "gap": 12,
+            "children": [
+              { "type": "Label", "text": "目次", "font": "logo", "flex": 1, "align": "left", "margin": 6 },
+              { "type": "Button", "text": "閉じる", "variant": "ghost", "w": 140, "action": "close" }
+            ]
+          },
+          {
+            "type": "HorizontalLayout",
+            "variant": "light",
+            "flex": 1,
+            "pad": 20,
+            "gap": 24,
+            "children": [
+              {
+                "type": "VerticalLayout", "flex": 1, "gap": 8,
+                "children": [
+                  { "type": "Button", "text": "はじめから", "h": 46, "variant": "ghost", "action": "jump:start" },
+                  { "type": "Button", "text": "第1章 枯れた泉", "h": 46, "variant": "ghost", "icon": "▶", "highlight": true, "enabled": false }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

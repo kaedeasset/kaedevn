@@ -1,0 +1,41 @@
+// KaedeFilter.usf — SCREEN_FILTER のフルスクリーン適用（pixel shader）。
+// FPixelShaderUtils::AddFullscreenPass が内蔵のフルスクリーン VS を使うので PS のみ定義する。
+// 純粋な per-pixel 数式（状態を持つ乱数なし）なので GLSL/web 版とアルゴリズム一致できる。
+
+#include "/Engine/Public/Platform.ush"
+
+Texture2D    InputTexture;
+SamplerState InputSampler;
+float        Intensity;
+int          FilterType;
+float2       InvSize;
+
+void MainPS(float4 SvPosition : SV_POSITION, out float4 OutColor : SV_Target0)
+{
+	float2 UV = SvPosition.xy * InvSize;
+	float3 c = InputTexture.SampleLevel(InputSampler, UV, 0).rgb;
+	float3 f = c;
+
+	if (FilterType == 1) // grayscale（輝度）
+	{
+		float g = dot(c, float3(0.299, 0.587, 0.114));
+		f = float3(g, g, g);
+	}
+	else if (FilterType == 2) // sepia
+	{
+		f = float3(
+			dot(c, float3(0.393, 0.769, 0.189)),
+			dot(c, float3(0.349, 0.686, 0.168)),
+			dot(c, float3(0.272, 0.534, 0.131)));
+	}
+	else if (FilterType == 3) // warm（暖色ティント）
+	{
+		f = c * float3(1.15, 1.02, 0.85);
+	}
+	else if (FilterType == 4) // cool（寒色ティント）
+	{
+		f = c * float3(0.85, 0.95, 1.18);
+	}
+
+	OutColor = float4(saturate(lerp(c, f, saturate(Intensity))), 1.0);
+}

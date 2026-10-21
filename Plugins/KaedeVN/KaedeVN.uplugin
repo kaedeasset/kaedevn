@@ -1,0 +1,54 @@
+{
+  "FileVersion": 3,
+  "Version": 2,
+  "VersionName": "0.2.0",
+  "FriendlyName": "KaedeVN",
+  "Description": "A free, open-source visual novel engine for Unreal Engine 5. Write scenarios as plain-text KS scripts and edit them line-by-line in a native UE asset editor (script tree / live preview / details, lint, undo). Ships with a bundled compiler (no external tools needed) that builds scripts into a portable scenario.json played by the Slate-rendered runtime.",
+  "Category": "Visual Novel",
+  "CreatedBy": "kaedeasset",
+  "CreatedByURL": "https://kaedeasset.com/",
+  "DocsURL": "https://github.com/kaedeasset/kaedevn#readme",
+  "MarketplaceURL": "",
+  "SupportURL": "https://github.com/kaedeasset/kaedevn/issues",
+  "EngineVersion": "5.8.0",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Plugins": [
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    },
+    {
+      "Name": "MomijiUI",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "KaedeShaders",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit"
+    },
+    {
+      "Name": "KaedeVnCore",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "KaedeKsc",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "KaedeVnUI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "KaedeVnHost",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

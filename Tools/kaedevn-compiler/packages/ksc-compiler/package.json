@@ -1,0 +1,29 @@
+{
+  "name": "@kaedevn/ksc-compiler",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "KSC (TypeScript-style) compiler and VM for kaedevn",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "visual-novel",
+    "compiler",
+    "ksc",
+    "vm"
+  ],
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "typescript": "5.9.3",
+    "vitest": "1.6.1"
+  }
+}

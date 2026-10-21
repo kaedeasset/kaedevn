@@ -1,0 +1,7 @@
+{
+  "name": "kaedevn-ksc-service",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test service.test.mjs" },
+  "devDependencies": { "esbuild": "0.25.0", "postject": "1.0.0-alpha.6" }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "kaedevn-compiler",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/core", "packages/ksc-compiler", "packages/compiler"],
+  "scripts": {
+    "build": "npm run build -w @kaedevn/core && npm run build -w @kaedevn/ksc-compiler && npm run build -w @kaedevn/compiler",
+    "test": "npm run test -w @kaedevn/compiler && npm run test:run -w @kaedevn/ksc-compiler",
+    "exe:ks-compile": "node scripts/build/make-ks-compile-exe.mjs",
+    "exe:blocks2ks": "node scripts/build/make-blocks2ks-exe.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "esbuild": "0.25.12",
+    "postject": "1.0.0-alpha.6",
+    "typescript": "5.9.3"
+  },
+  "engines": { "node": ">=22" }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "phase3-demo",
+  "ops": [
+    {
+      "op": "BG_SET",
+      "id": "room_day"
+    },
+    {
+      "op": "CH_SET",
+      "name": "hero",
+      "pose": "smile",
+      "pos": "center"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "おはよう。",
+      "who": "主人公"
+    },
+    {
+      "op": "TEXT_NL"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "今日はいい天気だね。",
+      "who": "主人公"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "本当ね。",
+      "who": "ヒロイン"
+    },
+    {
+      "op": "TEXT_NL"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "お散歩でも行きましょうか？",
+      "who": "ヒロイン"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "CH_SET",
+      "name": "hero",
+      "pose": "thinking",
+      "pos": "left"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "そうだな。",
+      "who": "主人公"
+    },
+    {
+      "op": "TEXT_NL"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "少し歩こう。",
+      "who": "主人公"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "BGM_PLAY",
+      "id": "calm",
+      "vol": 70
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "二人は公園を歩き始めた。"
+    },
+    {
+      "op": "TEXT_NL"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "風が心地よい。"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "いい季節だね。",
+      "who": "主人公"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "ええ。",
+      "who": "ヒロイン"
+    },
+    {
+      "op": "TEXT_NL"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "こういう日は",
+      "who": "ヒロイン"
+    },
+    {
+      "op": "TEXT_NL"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "何もかも忘れられるわ。",
+      "who": "ヒロイン"
+    },
+    {
+      "op": "WAIT_CLICK"
+    },
+    {
+      "op": "PAGE"
+    },
+    {
+      "op": "TEXT_APPEND",
+      "text": "おわり。"
+    },
+    {
+      "op": "PAGE"
+    }
+  ]
+}

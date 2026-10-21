@@ -1,0 +1,73 @@
+{
+  "id": "fxdemo",
+  "title": "画面エフェクト デモ",
+  "labels": { "start": 0 },
+  "ops": [
+    { "op": "BG_SET", "id": "01KSHMKAKBNVRWG7HDXF781VAS" },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "この作品は画面エフェクトの確認用です。クリックで進みます。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "SHAKE — 画面全体が、減衰しながら揺れます。背景の縁を見ると分かりやすいです。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "SHAKE", "intensity": 14, "durationMs": 500 },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "SHAKE（強）— intensity を上げるとこうなります。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "SHAKE", "intensity": 32, "durationMs": 900 },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "FLASH — 白く光って、すぐ戻ります。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "FLASH", "durationMs": 250 },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "FADE_BLACK — 黒へ暗転します。暗転中に背景を差し替えて、BLACK_IN で明けます。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "FADE_BLACK", "durationMs": 700 },
+    { "op": "BG_SET", "id": "01KSHMK7ZS52RZY6JB90HB9K7H" },
+    { "op": "BLACK_IN", "durationMs": 700 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "背景が変わりました。これが場面転換の基本形です。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "FADE_WHITE → WHITE_IN — 白でも同じです。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "FADE_WHITE", "durationMs": 600 },
+    { "op": "BG_SET", "id": "01KSHMK65ERJRZ8D8A0707YEFC" },
+    { "op": "WHITE_IN", "durationMs": 600 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "白転のほうが回想や衝撃の場面に合います。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "組み合わせ — 光ってから揺らすと、殴られたような演出になります。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "FLASH", "durationMs": 120 },
+    { "op": "SHAKE", "intensity": 26, "durationMs": 700 },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "OVERLAY_SET — 一枚絵を重ねます。引数なしで背景と同じ「全画面フィット」です。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "OVERLAY_SET", "id": "01KSHMK5JDXFTK7YJDN2KP3RSW", "fadeMs": 600 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "本文はオーバーレイの上に残るので、CG を見せながら喋れます。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "OVERLAY_HIDE", "id": "01KSHMK5JDXFTK7YJDN2KP3RSW", "fadeMs": 600 },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "s と x/y を指定すると、縮小して好きな位置に置けます（カットイン）。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "OVERLAY_SET", "id": "mira", "fadeMs": 400, "s": 0.55, "x": -420, "y": 120 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "複数枚を同時に出せます。id ごとに独立してフェードします。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "OVERLAY_SET", "id": "elder", "fadeMs": 400, "s": 0.55, "x": 420, "y": 120 },
+    { "op": "WAIT_CLICK" },
+    { "op": "OVERLAY_HIDE", "fadeMs": 500 },
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "id を省いた OVERLAY_HIDE で、まとめて消せます。" },
+    { "op": "WAIT_CLICK" },
+    { "op": "PAGE" },
+
+    { "op": "TEXT_APPEND", "who": "デモ", "text": "以上です。durationMs で長さを、SHAKE は intensity で揺れ幅（論理px）を指定します。立ち絵の移動は別作品「立ち絵移動 デモ」にあります。" },
+    { "op": "WAIT_CLICK" }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "config",
+  "note": "設定画面 UiNode定義。UE(ComputeDrawList)/web(MomijiUI)/native が同一定義を描く契約に準拠。Modal は w/h 指定で自動中央寄せ・子は縦積み。条件は数値変数のみ（touch: PC=0/タッチ=1、tab: 0-3）。値は bindVar で settings.json にバインド予定（現状は既定値）。",
+  "root": {
+    "type": "Modal",
+    "w": 860,
+    "h": 600,
+    "dim": true,
+    "pad": 0,
+    "gap": 0,
+    "children": [
+      {
+        "type": "VerticalLayout",
+        "h": 600,
+        "pad": 28,
+        "gap": 18,
+        "children": [
+          {
+            "type": "HorizontalLayout",
+            "variant": "dark",
+            "highlight": true,
+            "h": 56,
+            "pad": 8,
+            "gap": 12,
+            "children": [
+              { "type": "Label", "text": "設定", "font": "logo", "flex": 1, "align": "left", "margin": 6 },
+              { "type": "Button", "text": "×", "variant": "ghost", "w": 40, "action": "close" }
+            ]
+          },
+          {
+            "type": "ToggleGroup",
+            "h": 46,
+            "selected": 0,
+            "bindVar": "tab",
+            "children": [
+              { "type": "Button", "text": "テキスト", "action": "set:tab=0" },
+              { "type": "Button", "text": "音声", "action": "set:tab=1" },
+              { "type": "Button", "text": "表示", "action": "set:tab=2" },
+              { "type": "Button", "text": "システム", "action": "set:tab=3" }
+            ]
+          },
+          {
+            "type": "VerticalLayout",
+            "flex": 1,
+            "variant": "light",
+            "pad": 24,
+            "children": [
+              {
+                "type": "VerticalLayout", "flex": 1, "gap": 14, "showIf": "tab==0",
+                "children": [
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "メッセージ速度", "flex": 1, "align": "left" }, { "type": "Slider", "w": 320, "margin": 13, "value": 0.6, "bindVar": "msgSpeed", "action": "slider:msgSpeed" } ] },
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "オート待ち速度", "flex": 1, "align": "left" }, { "type": "Slider", "w": 320, "margin": 13, "value": 0.5, "bindVar": "autoSpeed", "action": "slider:autoSpeed" } ] },
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "メッセージ窓 不透明度", "flex": 1, "align": "left" }, { "type": "Slider", "w": 320, "margin": 13, "value": 0.8, "bindVar": "msgWinOpacity", "action": "slider:msgWinOpacity" } ] },
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "未読もスキップする", "flex": 1, "align": "left" }, { "type": "Toggle", "w": 28, "margin": 6, "on": false, "bindVar": "skipUnread", "action": "toggle:skipUnread" } ] },
+                  { "type": "HorizontalLayout", "h": 44, "children": [ { "type": "Label", "text": "フォントサイズ", "flex": 1, "align": "left" }, { "type": "ToggleGroup", "w": 300, "selected": 1, "bindVar": "fontSize", "children": [ { "type": "Button", "text": "小", "action": "set:fontSize=0" }, { "type": "Button", "text": "中", "action": "set:fontSize=1" }, { "type": "Button", "text": "大", "action": "set:fontSize=2" } ] } ] },
+                  { "type": "HorizontalLayout", "h": 44, "children": [ { "type": "Label", "text": "書体", "flex": 1, "align": "left" }, { "type": "ToggleGroup", "w": 300, "selected": 0, "bindVar": "fontFace", "children": [ { "type": "Button", "text": "ゴシック", "action": "set:fontFace=0" }, { "type": "Button", "text": "明朝", "action": "set:fontFace=1" } ] } ] }
+                ]
+              },
+              {
+                "type": "VerticalLayout", "flex": 1, "gap": 14, "showIf": "tab==1",
+                "children": [
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "マスター音量", "flex": 1, "align": "left" }, { "type": "Slider", "w": 320, "margin": 13, "value": 1.0, "bindVar": "masterVol", "action": "slider:masterVol" } ] },
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "BGM音量", "flex": 1, "align": "left" }, { "type": "Slider", "w": 320, "margin": 13, "value": 0.8, "bindVar": "bgmVol", "action": "slider:bgmVol" } ] },
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "効果音量", "flex": 1, "align": "left" }, { "type": "Slider", "w": 320, "margin": 13, "value": 0.9, "bindVar": "seVol", "action": "slider:seVol" } ] },
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "ボイス音量", "flex": 1, "align": "left" }, { "type": "Slider", "w": 320, "margin": 13, "value": 1.0, "bindVar": "voiceVol", "action": "slider:voiceVol" } ] },
+                  { "type": "HorizontalLayout", "h": 40, "children": [ { "type": "Label", "text": "送りでボイスを止める", "flex": 1, "align": "left" }, { "type": "Toggle", "w": 28, "margin": 6, "on": true, "bindVar": "stopVoiceOnAdvance", "action": "toggle:stopVoiceOnAdvance" } ] }
+                ]
+              },
+              {
+                "type": "VerticalLayout", "flex": 1, "gap": 14, "showIf": "tab==2",
+                "children": [
+                  { "type": "HorizontalLayout", "h": 44, "hideIf": "touch", "children": [ { "type": "Label", "text": "フルスクリーン", "flex": 1, "align": "left" }, { "type": "Toggle", "w": 28, "margin": 8, "on": true, "bindVar": "fullscreen", "action": "toggle:fullscreen" } ] },
+                  { "type": "HorizontalLayout", "h": 44, "hideIf": "touch", "children": [ { "type": "Label", "text": "解像度", "flex": 1, "align": "left" }, { "type": "ToggleGroup", "w": 360, "selected": 2, "bindVar": "resolution", "children": [ { "type": "Button", "text": "720p", "action": "set:resolution=0" }, { "type": "Button", "text": "900p", "action": "set:resolution=1" }, { "type": "Button", "text": "1080p", "action": "set:resolution=2" } ] } ] },
+                  { "type": "HorizontalLayout", "h": 44, "children": [ { "type": "Label", "text": "文字表示エリア", "flex": 1, "align": "left" }, { "type": "ToggleGroup", "w": 300, "selected": 0, "bindVar": "textArea", "children": [ { "type": "Button", "text": "標準", "action": "set:textArea=0" }, { "type": "Button", "text": "広い", "action": "set:textArea=1" } ] } ] },
+                  { "type": "Label", "h": 32, "text": "※ フルスクリーン/解像度はPC版のみ。Androidは常時フルスクリーン。", "font": "main", "align": "left", "showIf": "touch", "enabled": false }
+                ]
+              },
+              {
+                "type": "VerticalLayout", "flex": 1, "gap": 14, "showIf": "tab==3",
+                "children": [
+                  { "type": "HorizontalLayout", "h": 44, "children": [ { "type": "Label", "text": "オートセーブ", "flex": 1, "align": "left" }, { "type": "Toggle", "w": 28, "margin": 8, "on": true, "bindVar": "autosave", "action": "toggle:autosave" } ] },
+                  { "type": "HorizontalLayout", "h": 44, "children": [ { "type": "Label", "text": "言語", "flex": 1, "align": "left" }, { "type": "ToggleGroup", "w": 300, "selected": 0, "bindVar": "lang", "children": [ { "type": "Button", "text": "日本語", "action": "set:lang=0" }, { "type": "Button", "text": "English", "action": "set:lang=1" } ] } ] },
+                  { "type": "HorizontalLayout", "h": 44, "children": [ { "type": "Label", "text": "テーマ", "flex": 1, "align": "left" }, { "type": "ToggleGroup", "w": 360, "selected": 0, "bindVar": "uiTheme", "children": [ { "type": "Button", "text": "atelier", "action": "set:uiTheme=0" }, { "type": "Button", "text": "midnight", "action": "set:uiTheme=1" }, { "type": "Button", "text": "sakura", "action": "set:uiTheme=2" } ] } ] }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "HorizontalLayout",
+            "h": 48,
+            "gap": 12,
+            "children": [
+              { "type": "Button", "text": "既定に戻す", "variant": "ghost", "w": 160, "action": "reset" },
+              { "type": "Panel", "variant": "spacer", "flex": 1 },
+              { "type": "Button", "text": "閉じる", "variant": "primary", "w": 180, "action": "close" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
